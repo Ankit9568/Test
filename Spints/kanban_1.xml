@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rsystems BEP UI Testing">
+
+	<listeners>
+		<listener class-name="com.rsystems.utils.TestListenerAdapter"></listener>
+	</listeners>
+
+	
+	<test name="Swimlane Module Test case ">
+		<classes>
+			<class name="com.rsystems.test.SwimlanePageTestCase">
+				<methods>
+					<!-- https://jira.bc:8443/browse/BEP-5418 -->
+					<include name="tc_BEP490001_VerifyCloneExistingParam" />
+					<include name="tc_BEP490003_VerifyClonedParamIsDeleted" />
+					<include name="tc_BEP490004_VerifySaveBtnEnabledWhenClone" />
+					<include name="tc_BEP490005_VerifyUILanguageValue_NL" />
+					<include name="tc_BEP490006_VerifyUILanguageValue_FR" />
+					<include name="tc_BEP490007_VerifyUILanguageEdited" />
+					<include name="tc_BEP490008_UpdateCloneParameter" />
+					<include name="tc_BEP490009_VerifySortOrderChanged" />
+					
+					<!-- https://jira.bc:8443/browse/BEP-5427 -->
+					<!-- <include name="tc_BEP490001_verifyPropertiesPageAfterSave" />
+					<include name="tc_BEP490002_verifyPackagePageAfterAssignPackage" />
+					<include name="tc_BEP490003_verifyPackagePageAfterUnAssignPackage" /> -->
+					
+					<!-- https://jira.bc:8443/browse/BEP-7709 -->
+				<!-- 	<include name="tc_BEP580801_VerifyTooltipCloneButton" />
+					<include name="tc_BEP580802_VerifyCloneBtnFunctionality" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+

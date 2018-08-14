@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="renpay UI Testing">
+
+	<listeners>
+		<listener class-name="com.renpay.utils.TestListenerAdapter"></listener>
+	</listeners>
+
+	
+	<test name="Login Module Test case ">
+		<classes>
+			<class name="com.renpay.test.LogInPageTestCase">
+				<methods>
+					<include name="tc_renpay01_LoginWithValidCredentials" />
+					<include name="tc_renpay02_LoginWithInValidCredentials" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		
+		<test name="Home Module Test case ">
+		<classes>
+			<class name="com.renpay.test.HomePageTestCase">
+				<methods>
+					<include name="tc_renpay01_UpdateUserProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+

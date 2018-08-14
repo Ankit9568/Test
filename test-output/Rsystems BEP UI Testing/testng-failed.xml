@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rsystems BEP UI Testing]">
+  <listeners>
+    <listener class-name="com.rsystems.utils.TestListenerAdapter"/>
+  </listeners>
+  <test name="Swimlane Module Test case (failed)">
+    <classes>
+      <class name="com.rsystems.test.SwimlanePageTestCase">
+        <methods>
+          <include name="afterMethodCalled"/>
+          <include name="tc_BEP490007_VerifyUILanguageEdited"/>
+          <include name="suiteEndReached"/>
+          <include name="afterClass"/>
+          <include name="tc_BEP490006_VerifyUILanguageValue_FR"/>
+          <include name="beforeClass"/>
+          <include name="Setup"/>
+          <include name="beforeMethodCalled"/>
+        </methods>
+      </class> <!-- com.rsystems.test.SwimlanePageTestCase -->
+    </classes>
+  </test> <!-- Swimlane Module Test case (failed) -->
+</suite> <!-- Failed suite [Rsystems BEP UI Testing] -->

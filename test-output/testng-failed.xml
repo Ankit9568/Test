@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [renpay UI Testing]">
+  <listeners>
+    <listener class-name="com.renpay.utils.TestListenerAdapter"/>
+  </listeners>
+  <test name="Home Module Test case (failed)">
+    <classes>
+      <class name="com.renpay.test.HomePageTestCase">
+        <methods>
+          <include name="afterMethodCalled"/>
+          <include name="beforeClass"/>
+          <include name="tc_renpay01_UpdateUserProfile"/>
+          <include name="suiteEndReached"/>
+          <include name="afterClass"/>
+          <include name="Setup"/>
+          <include name="beforeMethodCalled"/>
+        </methods>
+      </class> <!-- com.renpay.test.HomePageTestCase -->
+    </classes>
+  </test> <!-- Home Module Test case (failed) -->
+</suite> <!-- Failed suite [renpay UI Testing] -->

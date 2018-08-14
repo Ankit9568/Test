@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rsystems BEP UI Testing">
+
+	<listeners>
+		<listener class-name="com.rsystems.utils.TestListenerAdapter"></listener>
+	</listeners>
+
+	<test name="View Swimlane Module Test case ">
+		<classes>
+			<class name="com.rsystems.test.ViewSwimlaneTestCase">
+				<methods>
+					<include name="tc_BEP3059001_VerifySwimlaneViewPage" />
+					<include name="tc_BEP3059002_VerifySwimlaneExternalID" />
+					<include name="tc_BEP3059003_VerifySwimlaneName" />
+					<include name="tc_BEP3059004_VerifyDisplayName" />
+					<include name="tc_BEP3059005_VerifyComments" />
+					<include name="tc_BEP3059006_VerifyDisplayWhenEmptyCheckbox" />
+					<include name="tc_BEP3059007_VerifyIgnoreIfOptedoutCheckbox" />
+					<include name="tc_BEP3059008_VerifyMinimumCaching" />
+					<include name="tc_BEP3059009_VerifyMaximumCaching" />
+					<include name="tc_BEP3059010_VerifyStartTile" />
+					<include name="tc_BEP3059011_VerifyCoreTile" />
+					<include name="tc_BEP3059012_VerifyQuaryNameParam" />
+					<include name="tc_BEP3059013_VerifyTechnicalParam" />
+					<include name="tc_BEP3059014_VerifyTypeParam" />
+					<include name="tc_BEP3059015_VerifyItemLimitParam" />
+					<include name="tc_BEP3059016_VerifyDisplayNameUnderCorePannel" />
+					<include name="tc_BEP3059017_VerifyActualParamUnderCorePannel" />
+					<include name="tc_BEP3059018_VerifyPrototypeSelectorUnderCorePannel" />
+					<include name="tc_BEP3059019_VerifyValueUnderCorePannel" />
+					<include name="tc_BEP3059020_VerifyResponsibleValUnderCorePannel" />
+					<include name="tc_BEP3059022_VerifyEndPannelExpand" />
+					<include name="tc_BEP3059023_VerifyEdit_Cancle_HelpBtn" />
+					<include name="tc_BEP3059024_VerifyEditBtnFuctionality" />
+					<include name="tc_BEP3059026_VerifyHomeBtnInBreadCrumb" />
+					<include name="tc_BEP3059027_VerifySwimlaneBtnInBreadCrumb" />
+					<include name="tc_BEP3059028_VerifySwimlaneNameInBtnCrumb" />
+					<include name="tc_BEP3059029_VerifyPropertiesInBtnCrumb" />
+					<include name="tc_BEP3059030_verifyCoreTileDataAfterRefresh" />
+					<include
+						name="tc_BEP3059031_verifyCoreTileDataWhenChangingBrowserResolution" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+

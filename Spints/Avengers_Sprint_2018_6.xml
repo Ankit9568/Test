@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rsystems BEP UI Testing">
+
+	<listeners>
+		<listener class-name="com.rsystems.utils.TestListenerAdapter"></listener>
+	</listeners>
+
+	<!-- JIRA Story 3104 -->
+	<test name="HomePage Test case ">
+		<classes>
+			<class name="com.rsystems.test.HomePageTestCase">
+				<methods>
+					<include name="tc_BEP290001_VerifyUserProfileButton" />
+					<include name="tc_BEP290002_VerifyLogoutOption" />
+					<include name="tc_BEP290003_Verify_LoginPageAfterLogout" />
+					<include name="tc_BEP290004_Verify_LocalStorageAfterLogout" />
+					<include name="tc_BEP290005_AfterLogout_LoginwithNewUser" />
+					<include name="tc_BEP290006_AfterLogout_LogoutAllSession" />
+
+					<!-- This Test case cover in another JIRA ID 3754 -->
+					<include name="tc_BEP306702_VerifyPopUpItemOfCreateButton" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+
+	<!-- JIRA Story BEP 3790 -->
+	<test name="AccessPoint Module Test case ">
+		<classes>
+			<class name="com.rsystems.test.AccessPointTestCase">
+				<methods>
+					<include name="tc_BEP304401_CreateAccessPoint_MandatoryParam" />
+					<include name="tc_BEP304402_CreateAccessPointMandatory_OptionalParam" />
+					<include name="tc_BEP304403_CreateAccessPoint_MinVal_Name" />
+					<include name="tc_BEP304403_1_CreateAccessPoint_MaxVal_Name" />
+					<include name="tc_BEP304404_CreateAccessPoint_MinLength_ExternalID" />
+					<include name="tc_BEP304404_1_CreateAccessPoint_MaxLength_ExternalID" />
+					<include name="tc_BEP304405_CreateAccessPointWithDuplicateName" />
+					<include name="tc_BEP304406_CreateAccessPoint_MinLength_SortOrder" />
+					<include name="tc_BEP304406_1_CreateAccessPoint_MaxLength_SortOrder" />
+					<include name="tc_BEP304412_VerifyErrorMissingParam" />
+					<include name="tc_BEP304414_Verify_MaxLength_Property" />
+					<!-- This Test case cover in another JIRA ID 3754 -->
+					<include name="tc_BEP306703_ValidateCreateAccessPoint" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- JIRA Story 3750 -->
+	<test name="Login Module Test case ">
+		<classes>
+			<class name="com.rsystems.test.LogInPageTestCase">
+				<methods>
+					<include name="tc_BEP309101_VerifyMsgContent_ValidUsr_InvalidPwd" />
+					<include name="tc_BEP309102_VerifyMsgContent_InvalidUsr_ValidPwd" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,64 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rsystems BEP UI Testing">
+
+	<listeners>
+		<listener class-name="com.rsystems.utils.TestListenerAdapter"></listener>
+	</listeners>
+
+	<!-- https://jira.bc:8443/browse/BEP-4496 -->
+	<test name="View Access Point Test case ">
+		<classes>
+			<class name="com.rsystems.test.ViewAccessPointTestCase">
+				<methods>
+					<include name="tc_BEP305601_ViewAccessPointListPage" />
+					<include name="tc_BEP305602_ViewAccessPointDetails" />
+					<include name="tc_BEP305603_VerifyValuesOfAccessPoint" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- https://jira.bc:8443/browse/BEP-4498 -->
+	<test name="View Swimlane Module Test case ">
+		<classes>
+			<class name="com.rsystems.test.ViewSwimlaneTestCase">
+				<methods>
+					<include name="tc_BEP330001_VerifyViewSwinlanePage" />
+					<include name="tc_BEP330002_VerifySortOrder" />
+					<include name="tc_BEP330003_dragAndDropDisabled_ViewSwimlane" />
+					<include name="tc_BEP330004_VerifySortIsDraggabledisabled" />
+					<include name="tc_BEP330005_FunctionalityofViewAndEdit" />
+					<include name="tc_BEP330006_UpdateDisplayOrder" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- https://jira.bc:8443/browse/BEP-5000 -->
+	<test name="Access Point List page Module Test case ">
+		<classes>
+			<class name="com.rsystems.test.AccessPointListTestCase">
+				<methods>
+					<include name="tc_BEP400001_SortAccessPointAscendingOrder" />
+					<include name="tc_BEP400002_SortAccessPointDescendingOrder" />
+					<include name="tc_BEP400003_VerifySortingInAllPages" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- https://jira.bc:8443/browse/BEP-5007 -->
+	<test name="AccessPoint Module Test case ">
+		<classes>
+			<class name="com.rsystems.test.AccessPointTestCase">
+				<methods>
+					<include name="tc_BEP360001_VerifyAccessPointDeleted" />
+					<include name="tc_BEP360002_VerifyAccessPointNotDeleted" />
+					<include name="tc_BEP360003_VerifyAccessPointDeletefromDB" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
+

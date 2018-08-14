@@ -1,0 +1,33 @@
+06/08/2018 19:26:58 ProximusTMGUILogger Logger Info:: Inside Setup Method
+06/08/2018 19:27:01 ProximusTMGUILogger Window dimestion :(1051, 806)
+06/08/2018 19:27:02 ProximusTMGUILogger Suite is started on Application URL is ## http://13.250.210.161/RenepayIN/
+06/08/2018 19:27:06 ProximusTMGUILogger Waiting for the page to load
+06/08/2018 19:27:06 ProximusTMGUILogger Application loaded
+06/08/2018 19:27:06 ProximusTMGUILogger Inside before class method class Name is : LogInPageTestCase
+06/08/2018 19:27:06 ProximusTMGUILogger Testcase name is :::::: tc_renpay01_LoginWithValidCredentials
+06/08/2018 19:27:13 ProximusTMGUILogger Get value attribute from Text box 9568989975 Get Text Attribute 
+06/08/2018 19:27:16 ProximusTMGUILogger Get value attribute from Text box qwerty11 Get Text Attribute 
+06/08/2018 19:27:22 ProximusTMGUILogger Please wait modal alertbox is not visible on webpage
+06/08/2018 19:27:32 ProximusTMGUILogger Testcase name is :::::: tc_renpay02_LoginWithInValidCredentials
+06/08/2018 19:27:38 ProximusTMGUILogger Get value attribute from Text box WrongEmail@gmail.com Get Text Attribute 
+06/08/2018 19:27:41 ProximusTMGUILogger Get value attribute from Text box qwerty11 Get Text Attribute 
+06/08/2018 19:27:49 ProximusTMGUILogger Inside before class method class Name is : HomePageTestCase
+06/08/2018 19:27:49 ProximusTMGUILogger Validate the application is login or not
+06/08/2018 19:27:50 ProximusTMGUILogger URL Param http://13.250.210.161/RenepayIN/
+06/08/2018 19:27:53 ProximusTMGUILogger Get value attribute from Text box 9568989975 Get Text Attribute 
+06/08/2018 19:27:56 ProximusTMGUILogger Get value attribute from Text box qwerty11 Get Text Attribute 
+06/08/2018 19:28:01 ProximusTMGUILogger Please wait modal alertbox is not visible on webpage
+06/08/2018 19:28:01 ProximusTMGUILogger Testcase name is :::::: tc_renpay01_UpdateUserProfile
+06/08/2018 19:28:01 ProximusTMGUILogger Application is already on home page
+06/08/2018 19:28:09 ProximusTMGUILogger Get value attribute from Text box Ericsson171 Get Text Attribute 
+06/08/2018 19:28:33 ProximusTMGUILogger Logger Info:: Inside suiteEndReached Method
+06/08/2018 19:28:33 ProximusTMGUILogger Trying to quit webdriver
+06/08/2018 19:29:02 ProximusTMGUILogger chartPassed :[{y:2,label:'Login Module Test case ',toolTipContent:'Login Module Test case :2/2'},{y:1,label:'Home Module Test case ',toolTipContent:'Home Module Test case :1/1'}]
+06/08/2018 19:29:02 ProximusTMGUILogger chartFailed :[{y:0,label:'Login Module Test case ',toolTipContent:'Login Module Test case :0/2'},{y:0,label:'Home Module Test case ',toolTipContent:'Home Module Test case :0/1'}]
+06/08/2018 19:29:02 ProximusTMGUILogger Trying to create dashboard  report
+06/08/2018 19:29:03 ProximusTMGUILogger 
+===============================================
+renpay UI Testing
+Total tests run: 3, Failures: 0, Skips: 0
+===============================================
+

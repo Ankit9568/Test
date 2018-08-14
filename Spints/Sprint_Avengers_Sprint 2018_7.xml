@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rsystems BEP UI Testing">
+
+	<listeners>
+		<listener class-name="com.rsystems.utils.TestListenerAdapter"></listener>
+	</listeners>
+
+	<test name="HomePage Test case ">
+		<classes>
+			<class name="com.rsystems.test.HomePageTestCase">
+				<methods>
+					<!-- For JIRA ID 3101 -->
+					<include name="tc_BEP2794002_VerifyMenuIconFromJSON" />
+					<include name="tc_BEP2794003_verifyMenuButtonItem" />
+					<include name="tc_BEP2794004_verifyTooltipofEachIcon" />
+					<include name="tc_BEP2794005_verifyLogo" />
+					<include name="tc_BEP2794006_verifyLogoutOption" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+
