@@ -1,133 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="renpay UI Testing" duration-ms="87603" started-at="2018-08-06T14:06:58Z" finished-at="2018-08-06T14:08:26Z">
+  <suite name="Default suite" duration-ms="60258" started-at="2018-08-16T13:24:01Z" finished-at="2018-08-16T13:25:01Z">
     <groups>
     </groups>
-    <test name="Login Module Test case " duration-ms="43303" started-at="2018-08-06T14:06:58Z" finished-at="2018-08-06T14:07:42Z">
+    <test name="Default test" duration-ms="60258" started-at="2018-08-16T13:24:01Z" finished-at="2018-08-16T13:25:01Z">
       <class name="com.renpay.test.LogInPageTestCase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.LogInPageTestCase@b2c9a9c]" name="beforeClass" is-config="true" duration-ms="11" started-at="2018-08-06T19:36:58Z" finished-at="2018-08-06T19:36:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@b2c9a9c]" name="beforeMethodCalled" is-config="true" duration-ms="5209" started-at="2018-08-06T19:36:58Z" finished-at="2018-08-06T19:37:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_renpay01_LoginWithValidCredentials() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_renpay01_LoginWithValidCredentials()[pri:0, instance:com.renpay.test.LogInPageTestCase@b2c9a9c]" name="tc_renpay01_LoginWithValidCredentials" duration-ms="20444" started-at="2018-08-06T19:37:03Z" finished-at="2018-08-06T19:37:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_renpay01_LoginWithValidCredentials -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@b2c9a9c]" name="afterMethodCalled" is-config="true" duration-ms="18" started-at="2018-08-06T19:37:24Z" finished-at="2018-08-06T19:37:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_renpay01_LoginWithValidCredentials() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@b2c9a9c]" name="beforeMethodCalled" is-config="true" duration-ms="4179" started-at="2018-08-06T19:37:24Z" finished-at="2018-08-06T19:37:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_renpay02_LoginWithInValidCredentials() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_renpay02_LoginWithInValidCredentials()[pri:0, instance:com.renpay.test.LogInPageTestCase@b2c9a9c]" name="tc_renpay02_LoginWithInValidCredentials" duration-ms="13417" started-at="2018-08-06T19:37:28Z" finished-at="2018-08-06T19:37:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_renpay02_LoginWithInValidCredentials -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@b2c9a9c]" name="afterMethodCalled" is-config="true" duration-ms="15" started-at="2018-08-06T19:37:42Z" finished-at="2018-08-06T19:37:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_renpay02_LoginWithInValidCredentials() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.LogInPageTestCase@b2c9a9c]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-06T19:37:42Z" finished-at="2018-08-06T19:37:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7ebc5be6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.renpay.test.LogInPageTestCase -->
-    </test> <!-- Login Module Test case  -->
-    <test name="Home Module Test case " duration-ms="44279" started-at="2018-08-06T14:07:42Z" finished-at="2018-08-06T14:08:26Z">
-      <class name="com.renpay.test.HomePageTestCase">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.renpay.test.HomePageTestCase@2de23121]" name="Setup" is-config="true" duration-ms="8534" started-at="2018-08-06T19:36:50Z" finished-at="2018-08-06T19:36:58Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.renpay.test.LogInPageTestCase@1c1bbc4e]" name="Setup" is-config="true" duration-ms="8345" started-at="2018-08-16T18:53:53Z" finished-at="2018-08-16T18:54:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.HomePageTestCase@2de23121]" name="beforeClass" is-config="true" duration-ms="12828" started-at="2018-08-06T19:37:42Z" finished-at="2018-08-06T19:37:54Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.LogInPageTestCase@1c1bbc4e]" name="beforeClass" is-config="true" duration-ms="13" started-at="2018-08-16T18:54:01Z" finished-at="2018-08-16T18:54:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.HomePageTestCase@2de23121]" name="beforeMethodCalled" is-config="true" duration-ms="2345" started-at="2018-08-06T19:37:54Z" finished-at="2018-08-06T19:37:57Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@1c1bbc4e]" name="beforeMethodCalled" is-config="true" duration-ms="4106" started-at="2018-08-16T18:54:01Z" finished-at="2018-08-16T18:54:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.renpay.test.HomePageTestCase.tc_renpay01_UpdateUserProfile() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_F_Password004_ForgatPwdWithValidEmail() throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_renpay01_UpdateUserProfile()[pri:0, instance:com.renpay.test.HomePageTestCase@2de23121]" name="tc_renpay01_UpdateUserProfile" duration-ms="22906" started-at="2018-08-06T19:37:57Z" finished-at="2018-08-06T19:38:20Z">
+        <test-method status="PASS" signature="tc_F_Password004_ForgatPwdWithValidEmail()[pri:0, instance:com.renpay.test.LogInPageTestCase@1c1bbc4e]" name="tc_F_Password004_ForgatPwdWithValidEmail" duration-ms="56115" started-at="2018-08-16T18:54:05Z" finished-at="2018-08-16T18:55:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_renpay01_UpdateUserProfile -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.HomePageTestCase@2de23121]" name="afterMethodCalled" is-config="true" duration-ms="6198" started-at="2018-08-06T19:38:20Z" finished-at="2018-08-06T19:38:26Z">
+        </test-method> <!-- tc_F_Password004_ForgatPwdWithValidEmail -->
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@1c1bbc4e]" name="afterMethodCalled" is-config="true" duration-ms="15" started-at="2018-08-16T18:55:01Z" finished-at="2018-08-16T18:55:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.renpay.test.HomePageTestCase.tc_renpay01_UpdateUserProfile() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_F_Password004_ForgatPwdWithValidEmail() throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.HomePageTestCase@2de23121]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-06T19:38:26Z" finished-at="2018-08-06T19:38:26Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.LogInPageTestCase@1c1bbc4e]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-16T18:55:01Z" finished-at="2018-08-16T18:55:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4627dfda]]>
+                <![CDATA[org.testng.TestRunner@4012d5bc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="suiteEndReached()[pri:0, instance:com.renpay.test.HomePageTestCase@2de23121]" name="suiteEndReached" is-config="true" duration-ms="10999" started-at="2018-08-06T19:38:26Z" finished-at="2018-08-06T19:38:37Z">
+        <test-method status="PASS" signature="suiteEndReached()[pri:0, instance:com.renpay.test.LogInPageTestCase@1c1bbc4e]" name="suiteEndReached" is-config="true" duration-ms="1030" started-at="2018-08-16T18:55:01Z" finished-at="2018-08-16T18:55:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteEndReached -->
-      </class> <!-- com.renpay.test.HomePageTestCase -->
-    </test> <!-- Home Module Test case  -->
-  </suite> <!-- renpay UI Testing -->
+      </class> <!-- com.renpay.test.LogInPageTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

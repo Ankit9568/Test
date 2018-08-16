@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.omg.CORBA.portable.RemarshalException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
@@ -240,7 +241,6 @@ public class TestUtil extends TestInitialization {
 		reports.attachScreenshot(captureCurrentScreenshot());
 	}
 
-	
 	public static void send_CTRL_F5_onBrowser() throws AWTException {
 
 		driver.navigate().refresh();
@@ -296,15 +296,13 @@ public class TestUtil extends TestInitialization {
 	 *             Validate item navigation in breadcrumb
 	 */
 
-	
-
 	public static void waitForObjectInvisble(By by, int waitingTimeoutInSec, String objectName)
 			throws InterruptedException {
 
 		try {
 			driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
-			WebDriverWait wait = new WebDriverWait(driver, waitingTimeoutInSec * 1000);
+			WebDriverWait wait = new WebDriverWait(driver, waitingTimeoutInSec);
 			Boolean isInvisible = wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
 
 			if (isInvisible) {
@@ -318,21 +316,20 @@ public class TestUtil extends TestInitialization {
 			driver.manage().timeouts().implicitlyWait(implicitTimeOutInSec, TimeUnit.SECONDS);
 		}
 	}
-	
-	public static void waitForObjectVisible(WebElement we , int waitingTimeoutInSec, String objectName)
+
+	public static void waitForObjectVisible(WebElement we, int waitingTimeoutInSec, String objectName)
 			throws InterruptedException {
 
 		try {
 			driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
-			WebDriverWait wait = new WebDriverWait(driver, waitingTimeoutInSec * 1000);
+			WebDriverWait wait = new WebDriverWait(driver, waitingTimeoutInSec);
 			wait.until(ExpectedConditions.visibilityOf(we));
 
 		} finally {
 			driver.manage().timeouts().implicitlyWait(implicitTimeOutInSec, TimeUnit.SECONDS);
 		}
 	}
-	
 
 	/**
 	 * @param we
@@ -492,13 +489,27 @@ public class TestUtil extends TestInitialization {
 			driver.manage().timeouts().implicitlyWait(implicitTimeOutInSec, TimeUnit.SECONDS);
 		}
 	}
-	
-	public static void click(WebElement we , String objectName) throws InterruptedException{
-		
+
+	public static void click(WebElement we, String objectName) throws InterruptedException {
+
 		TestUtil.waitForObjectVisible(we, 180, objectName);
 		reports.log(LogStatus.PASS, "Click on " + objectName);
 		we.click();
 		reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
+	}
+
+	public static void selectCheckBox(WebElement we, String checkboxName) throws InterruptedException {
+
+		reports.log(LogStatus.PASS, "Select " + checkboxName);
+		we.click();
+
+		if (we.isSelected()) {
+			passTestCase(checkboxName + " has been selected");
+		}
+
+		else {
+			failTestCase(checkboxName + " is not selected");
+		}
 	}
 
 }

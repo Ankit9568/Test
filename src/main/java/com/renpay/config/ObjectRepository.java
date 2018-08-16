@@ -19,6 +19,26 @@ public class ObjectRepository {
 		public static final String password_ID = "xtxtPassword";
 		public static final String loginBtn_ID = "lnkLogin";
 		public static final String loginError_xpath = "//div[@id='divLoginErrorMsg']//p[@id='p2']"; 
+		public static final String buyerRadioBtn_ID = "rdbLoginType_0";
+		public static final String supplierRadioBtn_ID = "rdbLoginType_1";
+		public static final String labelForBuyerRadioBtn_xpath = "//label[@for='rdbLoginType_0']";
+		public static final String labelForSuppilerRadioBtn_xpath = "//label[@for='rdbLoginType_1']";
+		public static final String buyerImgForSignup_xpath = "//img[@alt='Buyer Icon']";
+		public static final String suppilerImgForForSignup_xpath = "//img[@alt='Seller Icon']";
+		public static final String rememberMeCheckBox_ID = "chkremember";
+		public static final String forgotPasswordLink_xpath = "//a[text()='Forgot Password?']";
+		public static final String emailboxTooltip_xpath = "//div[@role='tooltip']";
+		public static final String loginErrorPopupCloseBtn_ID = "lnkbtnAddUserClose";
+		
+		
+		public class ForgotPassword{
+			
+			public static final String forgotPasswordModal_xpath = "//div[@class='modal-body']/p[text()='Enter your username to reset your password']";
+			public static final String userName_ID = "txtFPUserName";
+			public static final String submitBtn_ID = "lnkFPSubmit";
+			public static final String loginError_ID = "msgBody"; 
+			public static final String closeBtnForgotPasswordModal_ID = "xbtnClose";
+		}
 		
 	}
 	

@@ -364,7 +364,7 @@ public class TestInitialization extends ObjectRepository {
 		Assert.fail(reason);
 	}
 
-	public void passTestCase(String reason) throws InterruptedException {
+	public static void passTestCase(String reason) throws InterruptedException {
 		reports.log(LogStatus.PASS, reason);
 		reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
 	}
