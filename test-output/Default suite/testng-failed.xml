@@ -3,17 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.renpay.test.LogInPageTestCase">
+      <class name="com.renpay.test.SignupTestCase">
         <methods>
           <include name="afterMethodCalled"/>
           <include name="beforeClass"/>
           <include name="suiteEndReached"/>
+          <include name="tc_SignUP_006_SignUPWithAlreadyRegisterUser"/>
           <include name="afterClass"/>
           <include name="Setup"/>
           <include name="beforeMethodCalled"/>
-          <include name="tc_F_Password004_ForgatPwdWithValidEmail"/>
         </methods>
-      </class> <!-- com.renpay.test.LogInPageTestCase -->
+      </class> <!-- com.renpay.test.SignupTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

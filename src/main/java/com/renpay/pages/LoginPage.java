@@ -83,6 +83,9 @@ public class LoginPage extends TestInitialization {
 	@FindBy(how = How.ID, using = LoginScreen.ForgotPassword.closeBtnForgotPasswordModal_ID)
 	public WebElement closeBtnForgotPasswordModal;
 	
+	@FindBy(how = How.XPATH, using = LoginScreen.ForgotPassword.popupCloseButtonAtModalHeader_xpath)
+	public WebElement popupCloseButtonAtModalHeader;
+	
 	public void appliactionLoginwithValidCredentails() throws InterruptedException {
 		HomePage homePage = new HomePage(driver);
 		TestUtil.click(signinLink, "Sign in link");

@@ -38,6 +38,9 @@ public class ObjectRepository {
 			public static final String submitBtn_ID = "lnkFPSubmit";
 			public static final String loginError_ID = "msgBody"; 
 			public static final String closeBtnForgotPasswordModal_ID = "xbtnClose";
+			public static final String popupCloseButtonAtModalHeader_xpath = "//button[text()='×']";
+			
+			
 		}
 		
 	}
@@ -65,6 +68,27 @@ public class ObjectRepository {
 		public static final String closerBtn_ID = "ContentPlaceHolder1_btnClose";
 		public static final String submitBtn_ID = "ContentPlaceHolder1_xlnkBtnSubmit";
 		
+		
+	}
+	
+	public class SignUpScreen{
+		
+		public static final String registerAsBuyerHeading_xpath = "//span[@id='spnCap' and text()='Register as a Buyer']";
+		public static final String firstNameField_ID = "ContentPlaceHolder1_xtxtFirstName";
+		public static final String lastNameField_ID = "ContentPlaceHolder1_xtxtLastName";
+		public static final String companyNameField_ID = "ContentPlaceHolder1_xtxtName";
+		public static final String addressCompanyField_ID = "ContentPlaceHolder1_xtxtAddress";
+		public static final String stateField_ID = "ContentPlaceHolder1_xddlState";
+		public static final String cityField_ID = "ContentPlaceHolder1_xddlCity";
+		public static final String pinField_ID = "ContentPlaceHolder1_xtxtPincode";
+		public static final String stateCode_ID = "ContentPlaceHolder1_xtxtStateCode";
+		public static final String gstField_ID = "ContentPlaceHolder1_xtxtGST";
+		public static final String emailField_ID = "ContentPlaceHolder1_xtxtEmail";
+		public static final String mobileField_ID = "ContentPlaceHolder1_xtxtMobileNo";
+		public static final String passwordField_ID = "ContentPlaceHolder1_xtxtPWD";
+		public static final String confirmPasswordField_ID = "ContentPlaceHolder1_xtxtConfirmPWD";
+		public static final String termsAndConditionCheckbox_ID = "ContentPlaceHolder1_xchkTnC";
+		public static final String registerBtn_ID = "ContentPlaceHolder1_xbtnRegister";
 		
 	}
 }

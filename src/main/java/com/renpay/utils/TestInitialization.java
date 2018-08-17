@@ -124,14 +124,15 @@ public class TestInitialization extends ObjectRepository {
 			String currectClassNameToBeExecuted = this.getClass().getSimpleName();
 
 			log.info("Inside before class method class Name is : " + currectClassNameToBeExecuted);
-			if (!currectClassNameToBeExecuted.contentEquals("LogInPageTestCase")) {
+			if (!(currectClassNameToBeExecuted.contentEquals("LogInPageTestCase")
+					|| currectClassNameToBeExecuted.contentEquals("SignupTestCase"))) {
 
 				// if application is already log in then no need to login
 				log.info("Validate the application is login or not");
 				try {
 					if (new LoginPage(driver).signinLink.isDisplayed())
 						driver.navigate().refresh();
-						applicationLogin();
+					applicationLogin();
 				} catch (NoSuchElementException e) {
 					// Application is not in login page
 					setApplicationHomePage();
@@ -150,7 +151,9 @@ public class TestInitialization extends ObjectRepository {
 			driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 			log.info("Testcase name is :::::: " + method.getName());
 			currentMethodName = method.getName();
-			if (!(method.getDeclaringClass().getSimpleName().contentEquals("LogInPageTestCase"))) {
+			if (!(method.getDeclaringClass().getSimpleName().contentEquals("LogInPageTestCase")
+					|| method.getDeclaringClass().getSimpleName().contentEquals("SignupTestCase")) ) {
+				
 				currentMethodName = method.getName();
 				reports.log(LogStatus.PASS, "Start Step : Start with the focus on Home page");
 				try {
@@ -184,23 +187,23 @@ public class TestInitialization extends ObjectRepository {
 		log.info("URL Param " + url);
 		LoginPage loginPage = new LoginPage(driver);
 
-		
 		if (loginPage.signinLink.isDisplayed()) {
 			HomePage homePage = new HomePage(driver);
 			TestUtil.click(loginPage.signinLink, "Sign in link");
 			TestUtil.waitForObjectVisible(loginPage.emailName, 60, "Sign in email");
-			
+
 			String userName = TestUtil.getExcelKeyValue("LogInPage", "UserName", "ValidValues");
 			String password = TestUtil.getExcelKeyValue("LogInPage", "Password", "ValidValues");
-			
+
 			TestUtil.sendKeys(userName, loginPage.emailName, "Email/Mobile editbox");
 			TestUtil.sendKeys(password, loginPage.password, "Password editbox");
-			
+
 			TestUtil.click(loginPage.loginBtn, "login button");
-			TestUtil.waitForObjectInvisble(By.id(ObjectRepository.pleaseWaitModal_ID),180, "Please wait modal alertbox");
-			
+			TestUtil.waitForObjectInvisble(By.id(ObjectRepository.pleaseWaitModal_ID), 180,
+					"Please wait modal alertbox");
+
 			TestUtil.waitForObjectVisible(homePage.imageProfile, 60, "User Profile");
-		
+
 		} else {
 			log.info("Application is not on login page :" + driver.getCurrentUrl());
 		}
@@ -213,7 +216,8 @@ public class TestInitialization extends ObjectRepository {
 
 			driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
-			if (!(method.getDeclaringClass().getSimpleName().contentEquals("LogInPageTestCase"))) {
+			if (!(method.getDeclaringClass().getSimpleName().contentEquals("LogInPageTestCase")
+					|| method.getDeclaringClass().getSimpleName().contentEquals("SignupTestCase"))) {
 				// Executed below code in whose test case which is not a part of
 				// Login module
 				reports.log(LogStatus.PASS, "TestCase Completed : Leave the test case with focus on Home page");
@@ -239,7 +243,7 @@ public class TestInitialization extends ObjectRepository {
 		LoginPage loginPage = new LoginPage(driver);
 		HomePage homePage = new HomePage(driver);
 		TestUtil.click(homePage.logoutOpenerLink, "Logout button Opener Link");
-		
+
 		reports.log(LogStatus.PASS, "Click on logout button and validate application logout successfully");
 		TestUtil.click(homePage.logoutLink, "Logout button");
 		TestUtil.waitForObjectVisible(loginPage.signinLink, 180, "Login link");
@@ -259,8 +263,7 @@ public class TestInitialization extends ObjectRepository {
 			if (new LoginPage(driver).signinLink.isDisplayed()) {
 				log.info("Application is already logout no need to logout.");
 
-			}
-			else{
+			} else {
 				reports.log(LogStatus.PASS, "Trying to Logout appliaction.");
 				applicationLogout();
 			}
@@ -297,8 +300,8 @@ public class TestInitialization extends ObjectRepository {
 
 	public void setApplicationHomePage() throws InterruptedException {
 
-		HomePage homePage =new HomePage(driver);
-		
+		HomePage homePage = new HomePage(driver);
+
 		try {
 			if (driver.getCurrentUrl().contains("Dashboard.aspx")) {
 				log.info("Application is already on home page");
@@ -455,7 +458,8 @@ public class TestInitialization extends ObjectRepository {
 
 		System.out.println("Waiting for the page to load");
 		wait = new WebDriverWait(driver, 120L);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(ObjectRepository.LoginScreen.signinLink_xpath)));
+		wait.until(
+				ExpectedConditions.presenceOfElementLocated(By.xpath(ObjectRepository.LoginScreen.signinLink_xpath)));
 		System.out.println("Application loaded");
 	}
 }
