@@ -8,8 +8,8 @@
           <include name="afterMethodCalled"/>
           <include name="beforeClass"/>
           <include name="suiteEndReached"/>
-          <include name="tc_SignUP_006_SignUPWithAlreadyRegisterUser"/>
           <include name="afterClass"/>
+          <include name="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition"/>
           <include name="Setup"/>
           <include name="beforeMethodCalled"/>
         </methods>

@@ -89,6 +89,10 @@ public class ObjectRepository {
 		public static final String confirmPasswordField_ID = "ContentPlaceHolder1_xtxtConfirmPWD";
 		public static final String termsAndConditionCheckbox_ID = "ContentPlaceHolder1_xchkTnC";
 		public static final String registerBtn_ID = "ContentPlaceHolder1_xbtnRegister";
+		public static final String termsAndCnditionLink_xpath = "//a[text()='terms and conditions']";
+		
+		public static final String termsOfUseHeadingInsideT_And_Cpage = "//h2[text()='TERMS OF USE' and @class='txtbold1']";
+		
 		
 	}
 }

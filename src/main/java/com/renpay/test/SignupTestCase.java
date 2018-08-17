@@ -22,21 +22,23 @@ public class SignupTestCase extends TestInitialization {
 		signUppage.validateSignUpPageFields();
 	}
 
+	
 	public void tc_SignUP_005_SignUpwithOutMadaoryField() throws InterruptedException {
 
 		SignUpPage signUppage = new SignUpPage(driver);
 		signUppage.navigateToSignUpPageAsBuyerAndValidate();
 		signUppage.fillOptionalField("AlreadyRegisteredUser");
-		signUppage.clickRegisterBtnAndValidateErrorMsg();
+		signUppage.clickRegisterBtnAndValidateErrorMsg(signUppage.firstNameField, "First Name",
+				TestUtil.getExcelKeyValue("ErrorMessages", "SignUpError", "Message"));
 	}
 
-	@Test
 	public void tc_SignUP_006_SignUPWithAlreadyRegisterUser() throws InterruptedException {
 
 		SignUpPage signUppage = new SignUpPage(driver);
 		LoginPage loginPage = new LoginPage(driver);
 		signUppage.navigateToSignUpPageAsBuyerAndValidate();
 		signUppage.fillMandatoryData("AlreadyRegisteredUser");
+		TestUtil.click(signUppage.termsAndConditionCheckbox, "Terms and condition checkbox");
 		signUppage.fillOptionalField("AlreadyRegisteredUser");
 		System.out.println("filled");
 		TestUtil.click(signUppage.registerBtn, "Register Button");
@@ -47,4 +49,25 @@ public class SignupTestCase extends TestInitialization {
 
 	}
 
+	
+	public void tc_SignUP_007_SignUPWithoutSelectTermsAndCondition() throws InterruptedException {
+
+		SignUpPage signUppage = new SignUpPage(driver);
+		signUppage.navigateToSignUpPageAsBuyerAndValidate();
+		signUppage.fillMandatoryData("AlreadyRegisteredUser");
+		signUppage.fillOptionalField("AlreadyRegisteredUser");
+
+		signUppage.clickRegisterBtnAndValidateErrorMsg(signUppage.termsAndConditionCheckbox, "Terms And Condition Checkbox",
+				TestUtil.getExcelKeyValue("ErrorMessages", "AcceptTermsAndConditionErrorMsg", "Message"));
+
+	}
+	
+	@Test
+	public void tc_SignUP_008_VerifyTermsAndConditionLink() throws InterruptedException{
+		
+		SignUpPage signUppage = new SignUpPage(driver);
+		signUppage.navigateToSignUpPageAsBuyerAndValidate();
+		signUppage.ClickTermsAndConditionAndValidate();
+	
+	}
 }

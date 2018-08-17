@@ -1,5 +1,7 @@
 package com.renpay.pages;
 
+import java.util.ArrayList;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -67,7 +69,13 @@ public class SignUpPage extends TestInitialization {
 
 	@FindBy(how = How.ID, using = SignUpScreen.registerBtn_ID)
 	public WebElement registerBtn;
-
+	
+	@FindBy(how = How.XPATH, using = SignUpScreen.termsAndCnditionLink_xpath)
+	public WebElement termsAndCnditionLink;
+	
+	@FindBy(how = How.XPATH, using = SignUpScreen.termsOfUseHeadingInsideT_And_Cpage)
+	public WebElement termsOfUseHeadingInsideT_And_Cpage;
+	
 	public void navigateToSignUpPageAsBuyerAndValidate() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
@@ -169,15 +177,31 @@ public class SignUpPage extends TestInitialization {
 		sendKeys(userMobile, mobileField, "Mobile Number Field");
 		sendKeys(userPassword, passwordField, "User Password Field");
 		sendKeys(userPassword, confirmPasswordField, "User Confirm Password Field");
-		TestUtil.click(termsAndConditionCheckbox, "Terms and condition checkbox");
+		
 		
 	}
 
-	public void clickRegisterBtnAndValidateErrorMsg() throws InterruptedException {
+	public void clickRegisterBtnAndValidateErrorMsg(WebElement we , String objectName , String expectedTooltip) throws InterruptedException {
 
 		reports.log(LogStatus.PASS, "Click on Register Button");
 		registerBtn.click();
-		new LoginPage(driver).valitateTooltip(TestUtil.getExcelKeyValue("ErrorMessages", "SignUpError", "Message"));
+		Thread.sleep(5000);
+		TestUtil.movePointerToObject(we, objectName);
+		reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
+		new LoginPage(driver).valitateTooltip(expectedTooltip);
 
+	}
+	
+	public void ClickTermsAndConditionAndValidate() throws InterruptedException{
+		
+		TestUtil.click(termsAndCnditionLink, "Terms and condition link");
+		Thread.sleep(2000);
+		ArrayList<String> windowHandleAfterOpenNewTab = new ArrayList<String>(driver.getWindowHandles());
+		log.info("Window size :" + windowHandleAfterOpenNewTab.size());
+		driver.switchTo().window(windowHandleAfterOpenNewTab.get(windowHandleAfterOpenNewTab.size() - 1));
+		TestUtil.isElementExist(termsOfUseHeadingInsideT_And_Cpage, "Heading of Terms and Condition page");
+		driver.close();
+		driver.switchTo().window(windowHandleAfterOpenNewTab.get(0));
+	
 	}
 }

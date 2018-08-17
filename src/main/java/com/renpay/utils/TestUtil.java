@@ -248,7 +248,7 @@ public class TestUtil extends TestInitialization {
 
 	public static void movePointerToObject(WebElement we, String objectName) throws InterruptedException {
 
-		reports.log(LogStatus.PASS, "Mouse move to " + objectName);
+		log.info("Mouse move to " + objectName);
 		Actions builder = new Actions(driver);
 		builder.moveToElement(we).build().perform();
 		Thread.sleep(5000);
