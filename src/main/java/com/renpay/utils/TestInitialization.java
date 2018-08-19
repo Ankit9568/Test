@@ -131,7 +131,7 @@ public class TestInitialization extends ObjectRepository {
 				log.info("Validate the application is login or not");
 				try {
 					if (new LoginPage(driver).signinLink.isDisplayed())
-						driver.navigate().refresh();
+					//	driver.navigate().refresh();
 					applicationLogin();
 				} catch (NoSuchElementException e) {
 					// Application is not in login page
@@ -189,20 +189,22 @@ public class TestInitialization extends ObjectRepository {
 
 		if (loginPage.signinLink.isDisplayed()) {
 			HomePage homePage = new HomePage(driver);
-			TestUtil.click(loginPage.signinLink, "Sign in link");
+			loginPage.signinLink.click();
+			
+			
 			TestUtil.waitForObjectVisible(loginPage.emailName, 60, "Sign in email");
-
+			
 			String userName = TestUtil.getExcelKeyValue("LogInPage", "UserName", "ValidValues");
 			String password = TestUtil.getExcelKeyValue("LogInPage", "Password", "ValidValues");
 
-			TestUtil.sendKeys(userName, loginPage.emailName, "Email/Mobile editbox");
-			TestUtil.sendKeys(password, loginPage.password, "Password editbox");
-
-			TestUtil.click(loginPage.loginBtn, "login button");
+			loginPage.emailName.sendKeys(userName);
+			loginPage.password.sendKeys(password);
+			
+			loginPage.loginBtn.click();
 			TestUtil.waitForObjectInvisble(By.id(ObjectRepository.pleaseWaitModal_ID), 180,
 					"Please wait modal alertbox");
 
-			TestUtil.waitForObjectVisible(homePage.imageProfile, 60, "User Profile");
+			TestUtil.waitForObjectVisible(homePage.imageProfile, 120, "User Profile");
 
 		} else {
 			log.info("Application is not on login page :" + driver.getCurrentUrl());

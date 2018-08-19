@@ -67,6 +67,8 @@ public class ObjectRepository {
 		public static final String updateConfirmBox_xpath = "//div[@id='divConfirm']//p[@id='ContentPlaceHolder1_pRegMsg']";
 		public static final String closerBtn_ID = "ContentPlaceHolder1_btnClose";
 		public static final String submitBtn_ID = "ContentPlaceHolder1_xlnkBtnSubmit";
+		public static final String uploadButton_ID = "ContentPlaceHolder1_xctrlCompanyLogo_imgLogo";
+		
 		
 		
 	}

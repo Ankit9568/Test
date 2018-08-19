@@ -93,7 +93,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>${SuiteName}</suiteXmlFile>
+						<suiteXmlFile>Demo.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
 						<BuildVersion>${ReleaseVersion}</BuildVersion>

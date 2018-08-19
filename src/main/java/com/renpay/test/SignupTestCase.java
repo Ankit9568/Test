@@ -22,6 +22,9 @@ public class SignupTestCase extends TestInitialization {
 		signUppage.validateSignUpPageFields();
 	}
 
+	public void tc_SignUp_004_ValidateSignUpWithBlankEntry(){
+		// Same scenerio is coverded is tc_003 as well
+	}
 	
 	public void tc_SignUP_005_SignUpwithOutMadaoryField() throws InterruptedException {
 
@@ -70,4 +73,30 @@ public class SignupTestCase extends TestInitialization {
 		signUppage.ClickTermsAndConditionAndValidate();
 	
 	}
+	
+	public void tc_SignUP_009_EnterEmail_UserName(){
+		
+		// Nothing to do validate
+	}
+	
+	public void tc_SignUP_010_VerifyPasswordLimit() throws InterruptedException{
+		
+		SignUpPage signUppage = new SignUpPage(driver);
+		signUppage.navigateToSignUpPageAsBuyerAndValidate();
+		// Think about it
+		
+		
+	}
+	
+	
+	public void tc_SignUP_011_ClickOnSignUpBtn(){
+		
+		// Need Every time new Email
+	}
+	
+	public void tc_SignUp_012_AfterSignUPValidateActivationLink(){
+		
+		// Need Every time new Email
+	}
+	
 }
