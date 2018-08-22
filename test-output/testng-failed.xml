@@ -8,18 +8,20 @@
     <classes>
       <class name="com.renpay.test.LogInPageTestCase">
         <methods>
+          <include name="suiteEndReached"/>
+          <include name="afterClass"/>
+          <include name="tc_Login_006_login_InValidUserAndValidPwd"/>
+          <include name="tc_F_Password001_ForgatPwdWithInvalidEmail"/>
+          <include name="tc_Login_010_VerifyRememberMeUnselectFunctionality"/>
+          <include name="tc_Login_008_login_InValidUserAndInValidPwd"/>
           <include name="tc_Login_007_login_validUserAndvalidPwd"/>
           <include name="tc_Login_009_VerifyRememberMeSelectFunctionality"/>
           <include name="afterMethodCalled"/>
           <include name="beforeClass"/>
-          <include name="suiteEndReached"/>
-          <include name="afterClass"/>
+          <include name="tc_Login_005_login_ValidUserAndInvalidPwd"/>
           <include name="Setup"/>
           <include name="beforeMethodCalled"/>
           <include name="tc_F_Password004_ForgatPwdWithValidEmail"/>
-          <include name="tc_F_Password001_ForgatPwdWithInvalidEmail"/>
-          <include name="tc_Login_010_VerifyRememberMeUnselectFunctionality"/>
-          <include name="tc_Login_008_login_InValidUserAndInValidPwd"/>
         </methods>
       </class> <!-- com.renpay.test.LogInPageTestCase -->
     </classes>

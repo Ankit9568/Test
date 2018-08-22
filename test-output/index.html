@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 14 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">20 methods, 12 failed,  3 skipped,  5 passed</span>
+                    <span class="method-stats">20 methods, 14 failed,  3 skipped,  3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -108,6 +108,16 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Renepay_Testing" title="com.renpay.test.LogInPageTestCase" hash-for-method="tc_F_Password004_ForgatPwdWithValidEmail">tc_F_Password004_ForgatPwdWithValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Renepay_Testing" title="com.renpay.test.LogInPageTestCase" hash-for-method="tc_Login_005_login_ValidUserAndInvalidPwd">tc_Login_005_login_ValidUserAndInvalidPwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Renepay_Testing" title="com.renpay.test.LogInPageTestCase" hash-for-method="tc_Login_006_login_InValidUserAndValidPwd">tc_Login_006_login_InValidUserAndValidPwd</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -208,16 +218,6 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Renepay_Testing" title="com.renpay.test.LogInPageTestCase" hash-for-method="tc_Login_004_Login_With_BlankUser_Pwd">tc_Login_004_Login_With_BlankUser_Pwd</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Renepay_Testing" title="com.renpay.test.LogInPageTestCase" hash-for-method="tc_Login_005_login_ValidUserAndInvalidPwd">tc_Login_005_login_ValidUserAndInvalidPwd</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Renepay_Testing" title="com.renpay.test.LogInPageTestCase" hash-for-method="tc_Login_006_login_InValidUserAndValidPwd">tc_Login_006_login_InValidUserAndValidPwd</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Renepay_Testing -->
                   </li>
                 </ul>
@@ -241,15 +241,15 @@
                   <a name="tc_F_Password001_ForgatPwdWithInvalidEmail">
                   </a> <!-- tc_F_Password001_ForgatPwdWithInvalidEmail -->
                   <span class="method-name">tc_F_Password001_ForgatPwdWithInvalidEmail</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 28 milliseconds
+Command duration or timeout: 21 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -258,9 +258,9 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.navigateToForgotPasswordScreen(LoginPage.java:189)
+	at com.renpay.pages.LoginPage.navigateToForgotPasswordScreen(LoginPage.java:194)
 	at com.renpay.test.LogInPageTestCase.tc_F_Password001_ForgatPwdWithInvalidEmail(LogInPageTestCase.java:137)
-... Removed 32 stack frames
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -269,15 +269,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_F_Password004_ForgatPwdWithValidEmail">
                   </a> <!-- tc_F_Password004_ForgatPwdWithValidEmail -->
                   <span class="method-name">tc_F_Password004_ForgatPwdWithValidEmail</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 23 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -286,9 +286,57 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.navigateToForgotPasswordScreen(LoginPage.java:189)
+	at com.renpay.pages.LoginPage.navigateToForgotPasswordScreen(LoginPage.java:194)
 	at com.renpay.test.LogInPageTestCase.tc_F_Password004_ForgatPwdWithValidEmail(LogInPageTestCase.java:152)
-... Removed 32 stack frames
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_Login_005_login_ValidUserAndInvalidPwd">
+                  </a> <!-- tc_Login_005_login_ValidUserAndInvalidPwd -->
+                  <span class="method-name">tc_Login_005_login_ValidUserAndInvalidPwd</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (9b9f2ca4bee26ad8a1108b4cae57a47f)] -&gt; xpath: //div[@id=&apos;divLoginErrorMsg&apos;]//p[@id=&apos;p2&apos;]] (tried for 60 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.renpay.utils.TestUtil.waitForObjectVisible(TestUtil.java:328)
+	at com.renpay.pages.LoginPage.appliactionLoginAndValidateError(LoginPage.java:140)
+	at com.renpay.test.LogInPageTestCase.tc_Login_005_login_ValidUserAndInvalidPwd(LogInPageTestCase.java:54)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_Login_006_login_InValidUserAndValidPwd">
+                  </a> <!-- tc_Login_006_login_InValidUserAndValidPwd -->
+                  <span class="method-name">tc_Login_006_login_InValidUserAndValidPwd</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
+	at com.renpay.pages.LoginPage.appliactionLoginAndValidateError(LoginPage.java:127)
+	at com.renpay.test.LogInPageTestCase.tc_Login_006_login_InValidUserAndValidPwd(LogInPageTestCase.java:67)
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -297,57 +345,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_Login_007_login_validUserAndvalidPwd">
                   </a> <!-- tc_Login_007_login_validUserAndvalidPwd -->
                   <span class="method-name">tc_Login_007_login_validUserAndvalidPwd</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.id: imgProfile&apos; (tried for 60 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at com.renpay.utils.TestUtil.waitForObjectVisible(TestUtil.java:328)
-	at com.renpay.pages.LoginPage.appliactionLoginwithValidCredentails(LoginPage.java:103)
-	at com.renpay.test.LogInPageTestCase.tc_Login_007_login_validUserAndvalidPwd(LogInPageTestCase.java:79)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;imgProfile&quot;}
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 11 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 26 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
-*** Element info: {Using=id, value=imgProfile}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
-	... 28 more
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_Login_008_login_InValidUserAndInValidPwd">
-                  </a> <!-- tc_Login_008_login_InValidUserAndInValidPwd -->
-                  <span class="method-name">tc_Login_008_login_InValidUserAndInValidPwd</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 41 milliseconds
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -356,7 +362,35 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.appliactionLoginAndValidateError(LoginPage.java:122)
+	at com.renpay.pages.LoginPage.appliactionLoginwithValidCredentails(LoginPage.java:90)
+	at com.renpay.test.LogInPageTestCase.tc_Login_007_login_validUserAndvalidPwd(LogInPageTestCase.java:79)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_Login_008_login_InValidUserAndInValidPwd">
+                  </a> <!-- tc_Login_008_login_InValidUserAndInValidPwd -->
+                  <span class="method-name">tc_Login_008_login_InValidUserAndInValidPwd</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
+	at com.renpay.pages.LoginPage.appliactionLoginAndValidateError(LoginPage.java:127)
 	at com.renpay.test.LogInPageTestCase.tc_Login_008_login_InValidUserAndInValidPwd(LogInPageTestCase.java:87)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
@@ -367,15 +401,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_Login_009_VerifyRememberMeSelectFunctionality">
                   </a> <!-- tc_Login_009_VerifyRememberMeSelectFunctionality -->
                   <span class="method-name">tc_Login_009_VerifyRememberMeSelectFunctionality</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
+Command duration or timeout: 23 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -384,9 +418,9 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.appliactionLoginWithRememberMe(LoginPage.java:108)
+	at com.renpay.pages.LoginPage.appliactionLoginWithRememberMe(LoginPage.java:113)
 	at com.renpay.test.LogInPageTestCase.tc_Login_009_VerifyRememberMeSelectFunctionality(LogInPageTestCase.java:99)
-... Removed 32 stack frames
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -395,15 +429,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_Login_010_VerifyRememberMeUnselectFunctionality">
                   </a> <!-- tc_Login_010_VerifyRememberMeUnselectFunctionality -->
                   <span class="method-name">tc_Login_010_VerifyRememberMeUnselectFunctionality</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 24 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -414,7 +448,7 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
 	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
 	at com.renpay.pages.LoginPage.appliactionLoginwithValidCredentails(LoginPage.java:90)
 	at com.renpay.test.LogInPageTestCase.tc_Login_010_VerifyRememberMeUnselectFunctionality(LogInPageTestCase.java:117)
-... Removed 32 stack frames
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -431,15 +465,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_SignUP_005_SignUpwithOutMadaoryField">
                   </a> <!-- tc_SignUP_005_SignUpwithOutMadaoryField -->
                   <span class="method-name">tc_SignUP_005_SignUpwithOutMadaoryField</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 25 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -459,15 +493,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_SignUP_006_SignUPWithAlreadyRegisterUser">
                   </a> <!-- tc_SignUP_006_SignUPWithAlreadyRegisterUser -->
                   <span class="method-name">tc_SignUP_006_SignUPWithAlreadyRegisterUser</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 23 milliseconds
+Command duration or timeout: 29 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -487,15 +521,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition">
                   </a> <!-- tc_SignUP_007_SignUPWithoutSelectTermsAndCondition -->
                   <span class="method-name">tc_SignUP_007_SignUPWithoutSelectTermsAndCondition</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 24 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -515,15 +549,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_SignUP_008_VerifyTermsAndConditionLink">
                   </a> <!-- tc_SignUP_008_VerifyTermsAndConditionLink -->
                   <span class="method-name">tc_SignUP_008_VerifyTermsAndConditionLink</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 25 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -543,15 +577,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_SignUp_001_RedirectToSignUpPage">
                   </a> <!-- tc_SignUp_001_RedirectToSignUpPage -->
                   <span class="method-name">tc_SignUp_001_RedirectToSignUpPage</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30 milliseconds
+Command duration or timeout: 24 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -571,15 +605,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_SignUp_002_ValidateSignUpFields">
                   </a> <!-- tc_SignUp_002_ValidateSignUpFields -->
                   <span class="method-name">tc_SignUp_002_ValidateSignUpFields</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 25 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -607,15 +641,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_CreateRFP_001">
                   </a> <!-- tc_CreateRFP_001 -->
                   <span class="method-name">tc_CreateRFP_001</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
+Command duration or timeout: 24 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -623,8 +657,8 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:193)
-	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:135)
+	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:194)
+	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:136)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -642,15 +676,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_001_UpdateUserProfile">
                   </a> <!-- tc_001_UpdateUserProfile -->
                   <span class="method-name">tc_001_UpdateUserProfile</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 24 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -658,8 +692,8 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:193)
-	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:135)
+	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:194)
+	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:136)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -669,15 +703,15 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_ValidateUserProfileBtn">
                   </a> <!-- tc_ValidateUserProfileBtn -->
                   <span class="method-name">tc_ValidateUserProfileBtn</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divMsgBox&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1398, 69). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;divLoginErrorMsg3&quot; role=&quot;dialog&quot; aria-hidden=&quot;false&quot; style=&quot;display: block; padding-right: 16px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 24 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;C1-GF-102&apos;, ip: &apos;192.168.150.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir42708_386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: a77e955befb73f3eaeb8188a17348cf9
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
@@ -685,8 +719,8 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:193)
-	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:135)
+	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:194)
+	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:136)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -718,20 +752,6 @@ Session ID: a77e955befb73f3eaeb8188a17348cf9
                   <a name="tc_Login_004_Login_With_BlankUser_Pwd">
                   </a> <!-- tc_Login_004_Login_With_BlankUser_Pwd -->
                   <span class="method-name">tc_Login_004_Login_With_BlankUser_Pwd</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_Login_005_login_ValidUserAndInvalidPwd">
-                  </a> <!-- tc_Login_005_login_ValidUserAndInvalidPwd -->
-                  <span class="method-name">tc_Login_005_login_ValidUserAndInvalidPwd</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_Login_006_login_InValidUserAndValidPwd">
-                  </a> <!-- tc_Login_006_login_InValidUserAndValidPwd -->
-                  <span class="method-name">tc_Login_006_login_InValidUserAndValidPwd</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -849,73 +869,73 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(20);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tc_Login_007_login_validUserAndvalidPwd')
+data.setCell(0, 1, 'tc_Login_005_login_ValidUserAndInvalidPwd')
 data.setCell(0, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(0, 3, 70896);
+data.setCell(0, 3, 70550);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tc_Login_005_login_ValidUserAndInvalidPwd')
+data.setCell(1, 1, 'tc_Login_004_Login_With_BlankUser_Pwd')
 data.setCell(1, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(1, 3, 17306);
+data.setCell(1, 3, 15171);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'tc_Login_006_login_InValidUserAndValidPwd')
+data.setCell(2, 1, 'tc_Login_002_VerifyLoginScreenField')
 data.setCell(2, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(2, 3, 17234);
+data.setCell(2, 3, 5736);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'tc_Login_004_Login_With_BlankUser_Pwd')
+data.setCell(3, 1, 'tc_Login_001_VerifyLoginPopup')
 data.setCell(3, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(3, 3, 15307);
+data.setCell(3, 3, 5012);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'tc_Login_002_VerifyLoginScreenField')
+data.setCell(4, 1, 'tc_Login_006_login_InValidUserAndValidPwd')
 data.setCell(4, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(4, 3, 5715);
+data.setCell(4, 3, 87);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'tc_Login_001_VerifyLoginPopup')
-data.setCell(5, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(5, 3, 5119);
+data.setCell(5, 1, 'tc_SignUp_002_ValidateSignUpFields')
+data.setCell(5, 2, 'com.renpay.test.SignupTestCase')
+data.setCell(5, 3, 82);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'tc_Login_008_login_InValidUserAndInValidPwd')
-data.setCell(6, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(6, 3, 94);
+data.setCell(6, 1, 'tc_SignUp_001_RedirectToSignUpPage')
+data.setCell(6, 2, 'com.renpay.test.SignupTestCase')
+data.setCell(6, 3, 81);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'tc_SignUp_001_RedirectToSignUpPage')
+data.setCell(7, 1, 'tc_SignUP_006_SignUPWithAlreadyRegisterUser')
 data.setCell(7, 2, 'com.renpay.test.SignupTestCase')
-data.setCell(7, 3, 87);
+data.setCell(7, 3, 81);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'tc_SignUP_008_VerifyTermsAndConditionLink')
+data.setCell(8, 1, 'tc_SignUP_005_SignUpwithOutMadaoryField')
 data.setCell(8, 2, 'com.renpay.test.SignupTestCase')
-data.setCell(8, 3, 81);
+data.setCell(8, 3, 78);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'tc_F_Password001_ForgatPwdWithInvalidEmail')
+data.setCell(9, 1, 'tc_Login_007_login_validUserAndvalidPwd')
 data.setCell(9, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(9, 3, 80);
+data.setCell(9, 3, 77);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'tc_SignUp_002_ValidateSignUpFields')
-data.setCell(10, 2, 'com.renpay.test.SignupTestCase')
-data.setCell(10, 3, 80);
+data.setCell(10, 1, 'tc_Login_008_login_InValidUserAndInValidPwd')
+data.setCell(10, 2, 'com.renpay.test.LogInPageTestCase')
+data.setCell(10, 3, 77);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'tc_SignUP_007_SignUPWithoutSelectTermsAndCondition')
-data.setCell(11, 2, 'com.renpay.test.SignupTestCase')
-data.setCell(11, 3, 80);
+data.setCell(11, 1, 'tc_Login_009_VerifyRememberMeSelectFunctionality')
+data.setCell(11, 2, 'com.renpay.test.LogInPageTestCase')
+data.setCell(11, 3, 77);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'tc_SignUP_005_SignUpwithOutMadaoryField')
+data.setCell(12, 1, 'tc_SignUP_008_VerifyTermsAndConditionLink')
 data.setCell(12, 2, 'com.renpay.test.SignupTestCase')
-data.setCell(12, 3, 79);
+data.setCell(12, 3, 77);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'tc_Login_009_VerifyRememberMeSelectFunctionality')
+data.setCell(13, 1, 'tc_F_Password004_ForgatPwdWithValidEmail')
 data.setCell(13, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(13, 3, 78);
+data.setCell(13, 3, 76);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'tc_F_Password004_ForgatPwdWithValidEmail')
-data.setCell(14, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(14, 3, 78);
+data.setCell(14, 1, 'tc_SignUP_007_SignUPWithoutSelectTermsAndCondition')
+data.setCell(14, 2, 'com.renpay.test.SignupTestCase')
+data.setCell(14, 3, 76);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'tc_SignUP_006_SignUPWithAlreadyRegisterUser')
-data.setCell(15, 2, 'com.renpay.test.SignupTestCase')
-data.setCell(15, 3, 78);
+data.setCell(15, 1, 'tc_Login_010_VerifyRememberMeUnselectFunctionality')
+data.setCell(15, 2, 'com.renpay.test.LogInPageTestCase')
+data.setCell(15, 3, 75);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'tc_Login_010_VerifyRememberMeUnselectFunctionality')
+data.setCell(16, 1, 'tc_F_Password001_ForgatPwdWithInvalidEmail')
 data.setCell(16, 2, 'com.renpay.test.LogInPageTestCase')
-data.setCell(16, 3, 76);
+data.setCell(16, 3, 74);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'tc_001_UpdateUserProfile')
 data.setCell(17, 2, 'com.renpay.test.Buyer_ProfileTestCases')
@@ -932,7 +952,7 @@ window.suiteTableData['Renepay_Testing']= { tableData: data, tableDiv: 'times-di
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Renepay_Testing">
               </div> <!-- times-div-Renepay_Testing -->
             </div> <!-- times-div -->
@@ -968,250 +988,254 @@ return data;
               <div class="chronological-class-name">com.renpay.test.LogInPageTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">7703 ms</span>
+                <span class="method-start">8695 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_001_VerifyLoginPopup() throws java.lang.Inter...)</span>
-                <span class="method-start">7718 ms</span>
+                <span class="method-start">8709 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tc_Login_001_VerifyLoginPopup</span>
-                <span class="method-start">10496 ms</span>
+                <span class="method-start">11531 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_001_VerifyLoginPopup() throws java.lang.Inter...)</span>
-                <span class="method-start">15616 ms</span>
+                <span class="method-start">16544 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_002_VerifyLoginScreenField() throws java.lang...)</span>
-                <span class="method-start">18542 ms</span>
+                <span class="method-start">19476 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tc_Login_002_VerifyLoginScreenField</span>
-                <span class="method-start">21252 ms</span>
+                <span class="method-start">22404 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_002_VerifyLoginScreenField() throws java.lang...)</span>
-                <span class="method-start">26968 ms</span>
+                <span class="method-start">28141 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_004_Login_With_BlankUser_Pwd() throws java.la...)</span>
-                <span class="method-start">29659 ms</span>
+                <span class="method-start">31017 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tc_Login_004_Login_With_BlankUser_Pwd</span>
-                <span class="method-start">32394 ms</span>
+                <span class="method-start">33699 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_004_Login_With_BlankUser_Pwd() throws java.la...)</span>
-                <span class="method-start">47701 ms</span>
+                <span class="method-start">48871 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_005_login_ValidUserAndInvalidPwd() throws jav...)</span>
-                <span class="method-start">50434 ms</span>
+                <span class="method-start">51715 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tc_Login_005_login_ValidUserAndInvalidPwd</span>
-                <span class="method-start">53111 ms</span>
+                <span class="method-start">54416 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_005_login_ValidUserAndInvalidPwd() throws jav...)</span>
-                <span class="method-start">70417 ms</span>
+                <span class="method-start">127488 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_006_login_InValidUserAndValidPwd() throws jav...)</span>
-                <span class="method-start">73094 ms</span>
+                <span class="method-start">130129 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tc_Login_006_login_InValidUserAndValidPwd</span>
-                <span class="method-start">75936 ms</span>
+                <span class="method-start">132727 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_006_login_InValidUserAndValidPwd() throws jav...)</span>
-                <span class="method-start">93171 ms</span>
+                <span class="method-start">135277 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_007_login_validUserAndvalidPwd() throws java....)</span>
-                <span class="method-start">95821 ms</span>
+                <span class="method-start">137878 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_Login_007_login_validUserAndvalidPwd</span>
-                <span class="method-start">98638 ms</span>
+                <span class="method-start">140508 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_007_login_validUserAndvalidPwd() throws java....)</span>
-                <span class="method-start">171987 ms</span>
+                <span class="method-start">143026 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_008_login_InValidUserAndInValidPwd() throws j...)</span>
-                <span class="method-start">174530 ms</span>
+                <span class="method-start">145558 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_Login_008_login_InValidUserAndInValidPwd</span>
-                <span class="method-start">177116 ms</span>
+                <span class="method-start">148200 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_008_login_InValidUserAndInValidPwd() throws j...)</span>
-                <span class="method-start">179699 ms</span>
+                <span class="method-start">150783 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_009_VerifyRememberMeSelectFunctionality() thr...)</span>
-                <span class="method-start">182208 ms</span>
+                <span class="method-start">153320 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_Login_009_VerifyRememberMeSelectFunctionality</span>
-                <span class="method-start">184734 ms</span>
+                <span class="method-start">155914 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_009_VerifyRememberMeSelectFunctionality() thr...)</span>
-                <span class="method-start">187298 ms</span>
+                <span class="method-start">158499 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_010_VerifyRememberMeUnselectFunctionality() t...)</span>
-                <span class="method-start">189871 ms</span>
+                <span class="method-start">161092 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_Login_010_VerifyRememberMeUnselectFunctionality</span>
-                <span class="method-start">192408 ms</span>
+                <span class="method-start">163656 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_Login_010_VerifyRememberMeUnselectFunctionality() t...)</span>
-                <span class="method-start">194917 ms</span>
+                <span class="method-start">166165 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_F_Password001_ForgatPwdWithInvalidEmail() throws ja...)</span>
-                <span class="method-start">197518 ms</span>
+                <span class="method-start">168770 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_F_Password001_ForgatPwdWithInvalidEmail</span>
-                <span class="method-start">200106 ms</span>
+                <span class="method-start">171407 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_F_Password001_ForgatPwdWithInvalidEmail() throws ja...)</span>
-                <span class="method-start">202629 ms</span>
+                <span class="method-start">173915 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_F_Password004_ForgatPwdWithValidEmail() throws java...)</span>
-                <span class="method-start">205154 ms</span>
+                <span class="method-start">176446 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_F_Password004_ForgatPwdWithValidEmail</span>
-                <span class="method-start">207748 ms</span>
+                <span class="method-start">179069 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.LogInPageTestCase.tc_F_Password004_ForgatPwdWithValidEmail() throws java...)</span>
-                <span class="method-start">210316 ms</span>
+                <span class="method-start">181639 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">afterClass(org.testng.TestRunner@47e9542a)</span>
-                <span class="method-start">212833 ms</span>
+                <span class="method-name">afterClass(org.testng.TestRunner@6c8e40fc)</span>
+                <span class="method-start">184181 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.renpay.test.SignupTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">212864 ms</span>
+                <span class="method-start">184230 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUp_001_RedirectToSignUpPage() throws java.lang.Int...)</span>
-                <span class="method-start">212873 ms</span>
+                <span class="method-start">184238 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_SignUp_001_RedirectToSignUpPage</span>
-                <span class="method-start">215413 ms</span>
+                <span class="method-start">186832 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUp_001_RedirectToSignUpPage() throws java.lang.Int...)</span>
-                <span class="method-start">218009 ms</span>
+                <span class="method-start">189428 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUp_002_ValidateSignUpFields() throws java.lang.Int...)</span>
-                <span class="method-start">220583 ms</span>
+                <span class="method-start">192021 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_SignUp_002_ValidateSignUpFields</span>
-                <span class="method-start">223124 ms</span>
+                <span class="method-start">194588 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUp_002_ValidateSignUpFields() throws java.lang.Int...)</span>
-                <span class="method-start">225647 ms</span>
+                <span class="method-start">197129 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUP_005_SignUpwithOutMadaoryField() throws java.lan...)</span>
-                <span class="method-start">228235 ms</span>
+                <span class="method-start">199734 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_SignUP_005_SignUpwithOutMadaoryField</span>
-                <span class="method-start">230842 ms</span>
+                <span class="method-start">202404 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUP_005_SignUpwithOutMadaoryField() throws java.lan...)</span>
-                <span class="method-start">233359 ms</span>
+                <span class="method-start">204940 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUP_006_SignUPWithAlreadyRegisterUser() throws java...)</span>
-                <span class="method-start">235880 ms</span>
+                <span class="method-start">207568 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_SignUP_006_SignUPWithAlreadyRegisterUser</span>
-                <span class="method-start">238491 ms</span>
+                <span class="method-start">210183 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUP_006_SignUPWithAlreadyRegisterUser() throws java...)</span>
-                <span class="method-start">241037 ms</span>
+                <span class="method-start">212721 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUP_007_SignUPWithoutSelectTermsAndCondition() thro...)</span>
-                <span class="method-start">243576 ms</span>
+                <span class="method-start">215259 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_SignUP_007_SignUPWithoutSelectTermsAndCondition</span>
-                <span class="method-start">246129 ms</span>
+                <span class="method-start">217899 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUP_007_SignUPWithoutSelectTermsAndCondition() thro...)</span>
-                <span class="method-start">248697 ms</span>
+                <span class="method-start">220470 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUP_008_VerifyTermsAndConditionLink() throws java.l...)</span>
-                <span class="method-start">251300 ms</span>
+                <span class="method-start">223011 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tc_SignUP_008_VerifyTermsAndConditionLink</span>
-                <span class="method-start">253833 ms</span>
+                <span class="method-start">225598 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethodCalled(public void com.renpay.test.SignupTestCase.tc_SignUP_008_VerifyTermsAndConditionLink() throws java.l...)</span>
-                <span class="method-start">256425 ms</span>
+                <span class="method-start">228185 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">afterClass(org.testng.TestRunner@4af2f2ae)</span>
-                <span class="method-start">259030 ms</span>
+                <span class="method-name">afterClass(org.testng.TestRunner@41bb5a40)</span>
+                <span class="method-start">230785 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1220,7 +1244,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">259053 ms</span>
+                <span class="method-start">230807 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1229,7 +1253,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">264053 ms</span>
+                <span class="method-start">235845 ms</span>
               </div> <!-- configuration-class before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

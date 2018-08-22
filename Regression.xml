@@ -11,15 +11,16 @@
 				<methods>
 					<include name="tc_Login_001_VerifyLoginPopup" />
 					<include name="tc_Login_002_VerifyLoginScreenField" />
+					<include name="tc_Login_007_login_validUserAndvalidPwd" />
 					<include name="tc_Login_004_Login_With_BlankUser_Pwd" />
 					<include name="tc_Login_005_login_ValidUserAndInvalidPwd" />
 					<include name="tc_Login_006_login_InValidUserAndValidPwd" />
-					<include name="tc_Login_007_login_validUserAndvalidPwd" />
 					<include name="tc_Login_008_login_InValidUserAndInValidPwd" />
 					<include name="tc_Login_009_VerifyRememberMeSelectFunctionality" />
 					<include name="tc_Login_010_VerifyRememberMeUnselectFunctionality" />
 					<include name="tc_F_Password001_ForgatPwdWithInvalidEmail" />
 					<include name="tc_F_Password004_ForgatPwdWithValidEmail" />
+
 				</methods>
 			</class>
 		</classes>
@@ -61,7 +62,6 @@
 					<include name="tc_CreateRFP_001" />
 				</methods>
 			</class>
-
 		</classes>
 	</test>
 </suite>

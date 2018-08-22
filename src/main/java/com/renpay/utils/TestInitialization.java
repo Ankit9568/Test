@@ -130,6 +130,7 @@ public class TestInitialization extends ObjectRepository {
 				// if application is already log in then no need to login
 				log.info("Validate the application is login or not");
 				try {
+						acceptpopUpIfexist();
 					if (new LoginPage(driver).signinLink.isDisplayed())
 						// driver.navigate().refresh();
 						applicationLogin();
@@ -197,13 +198,24 @@ public class TestInitialization extends ObjectRepository {
 			String userName = TestUtil.getExcelKeyValue("LogInPage", "UserName", "ValidValues");
 			String password = TestUtil.getExcelKeyValue("LogInPage", "Password", "ValidValues");
 
+			log.info("User name :" + userName);
+			log.info("Password : "+ password);
+			
+			loginPage.emailName.sendKeys(Keys.CONTROL, "a");
+			loginPage.emailName.sendKeys(Keys.DELETE);
 			loginPage.emailName.sendKeys(userName);
+			
+			loginPage.password.sendKeys(Keys.CONTROL, "a");
+			loginPage.password.sendKeys(Keys.DELETE);
 			loginPage.password.sendKeys(password);
 
 			loginPage.loginBtn.click();
+			
 			TestUtil.waitForObjectInvisble(By.id(ObjectRepository.pleaseWaitModal_ID), 180,
 					"Please wait modal alertbox");
-
+			
+			System.out.println(TestUtil.captureCurrentScreenshot());
+			
 			TestUtil.waitForObjectVisible(homePage.imageProfile, 180, "User Profile");
 
 		} else {
@@ -493,10 +505,19 @@ public class TestInitialization extends ObjectRepository {
 			if (loginPage.popupCloseButtonAtModalHeader.isDisplayed()) {
 				log.info("popup found accept it");
 				loginPage.popupCloseButtonAtModalHeader.click();
-			} else {
+			} 
+			
+			else if(loginPage.loginErrorPopupCloseBtn.isDisplayed()){
+				log.info("popup found accept it");
+				loginPage.loginErrorPopupCloseBtn.click();
+			}
+			else {
+				
 				log.info("popup is not found");
 			}
 		} catch (NoSuchElementException e) {
+			
+			
 			log.info("popup is not found ");
 		}
 	}

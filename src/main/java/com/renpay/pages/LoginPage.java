@@ -95,7 +95,12 @@ public class LoginPage extends TestInitialization {
 
 		TestUtil.sendKeys(userName, emailName, "Email/Mobile editbox");
 		TestUtil.sendKeys(passwordVal, password, "Password editbox");
-
+		
+		if(rememberMeCheckBox.isSelected()){
+			reports.log(LogStatus.PASS, "Remember me checkbox is selected. Trying to unselect it");
+			rememberMeCheckBox.click();
+			reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
+		}
 		reports.log(LogStatus.PASS, "Click on log in button and validate application login successfully.");
 		TestUtil.click(loginBtn, "login button");
 		TestUtil.waitForObjectInvisble(By.id(ObjectRepository.pleaseWaitModal_ID), 180, "Please wait modal alertbox");

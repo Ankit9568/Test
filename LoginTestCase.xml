@@ -12,10 +12,10 @@
 				<methods>
 					<include name="tc_Login_001_VerifyLoginPopup" />
 					<include name="tc_Login_002_VerifyLoginScreenField" />
+					<include name="tc_Login_007_login_validUserAndvalidPwd" />
 					<include name="tc_Login_004_Login_With_BlankUser_Pwd" />
 					<include name="tc_Login_005_login_ValidUserAndInvalidPwd" />
 					<include name="tc_Login_006_login_InValidUserAndValidPwd" />
-					<include name="tc_Login_007_login_validUserAndvalidPwd" />
 					<include name="tc_Login_008_login_InValidUserAndInValidPwd" />
 					<include name="tc_Login_009_VerifyRememberMeSelectFunctionality" />
 					<include name="tc_Login_010_VerifyRememberMeUnselectFunctionality" />
