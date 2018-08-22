@@ -4,6 +4,46 @@
   <listeners>
     <listener class-name="com.renpay.utils.TestListenerAdapter"/>
   </listeners>
+  <test name="Login test case(failed)">
+    <classes>
+      <class name="com.renpay.test.LogInPageTestCase">
+        <methods>
+          <include name="tc_Login_007_login_validUserAndvalidPwd"/>
+          <include name="tc_Login_009_VerifyRememberMeSelectFunctionality"/>
+          <include name="afterMethodCalled"/>
+          <include name="beforeClass"/>
+          <include name="suiteEndReached"/>
+          <include name="afterClass"/>
+          <include name="Setup"/>
+          <include name="beforeMethodCalled"/>
+          <include name="tc_F_Password004_ForgatPwdWithValidEmail"/>
+          <include name="tc_F_Password001_ForgatPwdWithInvalidEmail"/>
+          <include name="tc_Login_010_VerifyRememberMeUnselectFunctionality"/>
+          <include name="tc_Login_008_login_InValidUserAndInValidPwd"/>
+        </methods>
+      </class> <!-- com.renpay.test.LogInPageTestCase -->
+    </classes>
+  </test> <!-- Login test case(failed) -->
+  <test name="Signup test case(failed)">
+    <classes>
+      <class name="com.renpay.test.SignupTestCase">
+        <methods>
+          <include name="afterMethodCalled"/>
+          <include name="beforeClass"/>
+          <include name="tc_SignUp_001_RedirectToSignUpPage"/>
+          <include name="tc_SignUP_008_VerifyTermsAndConditionLink"/>
+          <include name="suiteEndReached"/>
+          <include name="tc_SignUP_005_SignUpwithOutMadaoryField"/>
+          <include name="tc_SignUP_006_SignUPWithAlreadyRegisterUser"/>
+          <include name="afterClass"/>
+          <include name="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition"/>
+          <include name="Setup"/>
+          <include name="beforeMethodCalled"/>
+          <include name="tc_SignUp_002_ValidateSignUpFields"/>
+        </methods>
+      </class> <!-- com.renpay.test.SignupTestCase -->
+    </classes>
+  </test> <!-- Signup test case(failed) -->
   <test name="Buyer Profile test case(failed)">
     <classes>
       <class name="com.renpay.test.Buyer_ProfileTestCases">
@@ -20,4 +60,19 @@
       </class> <!-- com.renpay.test.Buyer_ProfileTestCases -->
     </classes>
   </test> <!-- Buyer Profile test case(failed) -->
+  <test name="Create RFP test case(failed)">
+    <classes>
+      <class name="com.renpay.test.RFPTestCases">
+        <methods>
+          <include name="tc_CreateRFP_001"/>
+          <include name="afterMethodCalled"/>
+          <include name="beforeClass"/>
+          <include name="suiteEndReached"/>
+          <include name="afterClass"/>
+          <include name="Setup"/>
+          <include name="beforeMethodCalled"/>
+        </methods>
+      </class> <!-- com.renpay.test.RFPTestCases -->
+    </classes>
+  </test> <!-- Create RFP test case(failed) -->
 </suite> <!-- Failed suite [Renepay Testing] -->
