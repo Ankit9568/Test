@@ -26,6 +26,9 @@ public class HomePage extends TestInitialization {
 	@FindBy(how = How.XPATH, using = HomeScreen.logoutLink_xpath)
 	public WebElement logoutLink;
 	
+	@FindBy(how = How.XPATH, using = HomeScreen.userProfile_xpath)
+	public WebElement userProfile;
+	
 	@FindBy(how = How.ID, using = HomeScreen.renpayLogoImg_ID)
 	public WebElement renpayLogoImg;
 	
@@ -34,5 +37,12 @@ public class HomePage extends TestInitialization {
 	
 	@FindBy(how = How.ID, using = HomeScreen.profileEdit_ID)
 	public WebElement profileEditLink;
+	
+	@FindBy(how = How.XPATH, using = HomeScreen.rpfTabInLeftPannel_xpath)
+	public WebElement rpfTabInLeftPannel;
+	
+	@FindBy(how = How.ID, using = HomeScreen.createRFP_Btn_ID)
+	public WebElement createRFP_Btn;
+	
 
 }

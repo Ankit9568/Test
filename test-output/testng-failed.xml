@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Renepay Testing]">
+  <listeners>
+    <listener class-name="com.renpay.utils.TestListenerAdapter"/>
+  </listeners>
+  <test name="Buyer Profile test case(failed)">
     <classes>
       <class name="com.renpay.test.Buyer_ProfileTestCases">
         <methods>
           <include name="afterMethodCalled"/>
           <include name="beforeClass"/>
+          <include name="tc_ValidateUserProfileBtn"/>
           <include name="suiteEndReached"/>
-          <include name="tc_001_ClickMyProfileLink"/>
+          <include name="tc_001_UpdateUserProfile"/>
           <include name="afterClass"/>
           <include name="Setup"/>
           <include name="beforeMethodCalled"/>
         </methods>
       </class> <!-- com.renpay.test.Buyer_ProfileTestCases -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Buyer Profile test case(failed) -->
+</suite> <!-- Failed suite [Renepay Testing] -->

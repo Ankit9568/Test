@@ -15,15 +15,18 @@ import com.renpay.utils.TestUtil;
 
 public class LogInPageTestCase extends TestInitialization {
 
+	@Test
 	public void tc_Login_001_VerifyLoginPopup() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
 		TestUtil.click(loginPage.signinLink, "Sign in link");
+		reports.log(LogStatus.PASS, "Validate Login pop is displayed");
 		TestUtil.waitForObjectVisible(loginPage.emailName, 60, "Sign in email");
 		TestUtil.waitForObjectVisible(loginPage.password, 60, "Sign in password");
-
+		reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
 	}
-
+	
+	@Test
 	public void tc_Login_002_VerifyLoginScreenField() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
@@ -32,19 +35,23 @@ public class LogInPageTestCase extends TestInitialization {
 		loginPage.verifyLoginScreenPopUp();
 	}
 
+	@Test
 	public void tc_Login_004_Login_With_BlankUser_Pwd() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
 		TestUtil.click(loginPage.signinLink, "Sign in link");
+		reports.log(LogStatus.PASS, "Click on login button");
 		loginPage.loginBtn.click();
-		// TestUtil.click(loginPage.loginBtn, "Sign in link");
+		Thread.sleep(5000);
+		TestUtil.movePointerToObject(loginPage.emailName, "login popup email field");
 		loginPage.valitateTooltip(TestUtil.getExcelKeyValue("ErrorMessages", "BlankUserName", "Message").trim());
 	}
 
+	@Test
 	public void tc_Login_005_login_ValidUserAndInvalidPwd() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
-		loginPage.appliactionLoginWithoutRememberMe(TestUtil.getExcelKeyValue("LogInPage", "UserName", "ValidValues"),
+		loginPage.appliactionLoginAndValidateError(TestUtil.getExcelKeyValue("LogInPage", "UserName", "ValidValues"),
 				TestUtil.getExcelKeyValue("LogInPage", "Password", "InvalidValues"));
 		loginPage.validateLoginErrorMsg(
 				TestUtil.getExcelKeyValue("ErrorMessages", "IncorrectUserNameAndPassword", "Message").trim(), loginPage.loginError);
@@ -53,10 +60,11 @@ public class LogInPageTestCase extends TestInitialization {
 
 	}
 
+	@Test
 	public void tc_Login_006_login_InValidUserAndValidPwd() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
-		loginPage.appliactionLoginWithoutRememberMe(TestUtil.getExcelKeyValue("LogInPage", "UserName", "InvalidValues"),
+		loginPage.appliactionLoginAndValidateError(TestUtil.getExcelKeyValue("LogInPage", "UserName", "InvalidValues"),
 				TestUtil.getExcelKeyValue("LogInPage", "Password", "ValidValues"));
 		loginPage.validateLoginErrorMsg(
 				TestUtil.getExcelKeyValue("ErrorMessages", "IncorrectUserNameAndPassword", "Message").trim(),loginPage.loginError);
@@ -64,6 +72,7 @@ public class LogInPageTestCase extends TestInitialization {
 		TestUtil.waitForObjectVisible(loginPage.signinLink, 60, "Sign in link");
 	}
 
+	@Test
 	public void tc_Login_007_login_validUserAndvalidPwd() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
@@ -71,10 +80,11 @@ public class LogInPageTestCase extends TestInitialization {
 		TestInitialization.applicationLogout();
 	}
 
+	@Test
 	public void tc_Login_008_login_InValidUserAndInValidPwd() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
-		loginPage.appliactionLoginWithoutRememberMe(TestUtil.getExcelKeyValue("LogInPage", "UserName", "InvalidValues"),
+		loginPage.appliactionLoginAndValidateError(TestUtil.getExcelKeyValue("LogInPage", "UserName", "InvalidValues"),
 				TestUtil.getExcelKeyValue("LogInPage", "Password", "InvalidValues"));
 		loginPage.validateLoginErrorMsg(
 				TestUtil.getExcelKeyValue("ErrorMessages", "IncorrectUserNameAndPassword", "Message").trim(), loginPage.loginError);
@@ -82,7 +92,7 @@ public class LogInPageTestCase extends TestInitialization {
 		TestUtil.waitForObjectVisible(loginPage.signinLink, 60, "Sign in link");
 	}
 
-	
+	@Test
 	public void tc_Login_009_VerifyRememberMeSelectFunctionality() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
@@ -99,12 +109,12 @@ public class LogInPageTestCase extends TestInitialization {
 
 	}
 
-	
+	@Test
 	public void tc_Login_010_VerifyRememberMeUnselectFunctionality() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
-		loginPage.appliactionLoginWithoutRememberMe(TestUtil.getExcelKeyValue("LogInPage", "UserName", "ValidValues"),
-				TestUtil.getExcelKeyValue("LogInPage", "Password", "ValidValues"));
+		
+		loginPage.appliactionLoginwithValidCredentails();
 		TestInitialization.applicationLogout();
 		TestUtil.click(loginPage.signinLink, "Sign in link");
 		TestUtil.waitForObjectVisible(loginPage.emailName, 60, "Sign in email");
@@ -119,7 +129,7 @@ public class LogInPageTestCase extends TestInitialization {
 	}
 	
 	
-
+	@Test
 	public void tc_F_Password001_ForgatPwdWithInvalidEmail() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
@@ -168,21 +178,6 @@ public class LogInPageTestCase extends TestInitialization {
 			failTestCase("Email is not found on registered user");
 		}
 		
-	}
-	
-	
-	
-	public void tc_renpay01_LoginWithValidCredentials() throws InterruptedException {
-
-		LoginPage LoginPage = new LoginPage(driver);
-		LoginPage.appliactionLoginwithValidCredentails();
-		TestInitialization.applicationLogout();
-	}
-
-	public void tc_renpay02_LoginWithInValidCredentials() throws InterruptedException {
-
-		LoginPage LoginPage = new LoginPage(driver);
-		// LoginPage.appliactionLoginwithInValidCredentails();
 	}
 
 }

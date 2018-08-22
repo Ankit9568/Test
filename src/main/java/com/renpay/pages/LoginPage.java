@@ -66,26 +66,25 @@ public class LoginPage extends TestInitialization {
 
 	@FindBy(how = How.ID, using = LoginScreen.loginErrorPopupCloseBtn_ID)
 	public WebElement loginErrorPopupCloseBtn;
-	
+
 	@FindBy(how = How.XPATH, using = LoginScreen.ForgotPassword.forgotPasswordModal_xpath)
 	public WebElement forgotPasswordModal;
-	
-	
+
 	@FindBy(how = How.ID, using = LoginScreen.ForgotPassword.submitBtn_ID)
 	public WebElement submitBtnForForgotPassword;
 
 	@FindBy(how = How.ID, using = LoginScreen.ForgotPassword.userName_ID)
 	public WebElement userNameForForgotPassword;
-	
+
 	@FindBy(how = How.ID, using = LoginScreen.ForgotPassword.loginError_ID)
 	public WebElement loginError_ForgotPassward;
-	
+
 	@FindBy(how = How.ID, using = LoginScreen.ForgotPassword.closeBtnForgotPasswordModal_ID)
 	public WebElement closeBtnForgotPasswordModal;
-	
+
 	@FindBy(how = How.XPATH, using = LoginScreen.ForgotPassword.popupCloseButtonAtModalHeader_xpath)
 	public WebElement popupCloseButtonAtModalHeader;
-	
+
 	public void appliactionLoginwithValidCredentails() throws InterruptedException {
 		HomePage homePage = new HomePage(driver);
 		TestUtil.click(signinLink, "Sign in link");
@@ -104,7 +103,7 @@ public class LoginPage extends TestInitialization {
 		TestUtil.waitForObjectVisible(homePage.imageProfile, 60, "User Profile");
 	}
 
-	public void appliactionLoginWithRememberMe(String userName , String pwdVal) throws InterruptedException {
+	public void appliactionLoginWithRememberMe(String userName, String pwdVal) throws InterruptedException {
 
 		TestUtil.click(signinLink, "Sign in link");
 		TestUtil.waitForObjectVisible(emailName, 60, "Sign in email");
@@ -115,52 +114,44 @@ public class LoginPage extends TestInitialization {
 		TestUtil.click(loginBtn, "login button");
 		TestUtil.waitForObjectInvisble(By.id(ObjectRepository.pleaseWaitModal_ID), 180, "Please wait modal alertbox");
 		TestUtil.waitForObjectVisible(new HomePage(driver).imageProfile, 60, "User Profile");
-		
-		
+
 	}
 
-	
-	public void appliactionLoginWithoutRememberMe(String userName , String pwdVal) throws InterruptedException {
+	public void appliactionLoginAndValidateError(String userName, String pwdVal) throws InterruptedException {
 
 		TestUtil.click(signinLink, "Sign in link");
 		TestUtil.waitForObjectVisible(emailName, 60, "Sign in email");
 
 		TestUtil.sendKeys(userName, emailName, "Email/Mobile editbox");
 		TestUtil.sendKeys(pwdVal, password, "Password editbox");
-		
-		if(rememberMeCheckBox.isSelected()){
+
+		if (rememberMeCheckBox.isSelected()) {
 			reports.log(LogStatus.PASS, "Unselect Remember me checkbox");
 			rememberMeCheckBox.click();
 			reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
 		}
-		
+
 		TestUtil.click(loginBtn, "login button");
 		TestUtil.waitForObjectVisible(loginError, 60, "Login error");
-		
-		
+
 	}
 
-	
-	
-	public void validateLoginErrorMsg(String expectedErrorMsg , WebElement we) throws InterruptedException{
-		
+	public void validateLoginErrorMsg(String expectedErrorMsg, WebElement we) throws InterruptedException {
 
-		if (we.getText().trim()
-				.contentEquals(expectedErrorMsg.trim())) {
+		if (we.getText().trim().contentEquals(expectedErrorMsg.trim())) {
 
-			passTestCase("Log in error has been displayed Actual error message :" + we.getText().trim()
-					+ " \n and expected error message : "
-					+expectedErrorMsg.trim());
+			passTestCase("Message has been displayed. <br> Actual  message :" + we.getText().trim()
+					+ " and expected  message : " + expectedErrorMsg.trim());
 		}
 
 		else {
-			failTestCase("Unable to validate login error.Actual error message :" + we.getText().trim()
-					+ " \n and expected error message : "
-					+ expectedErrorMsg.trim());
+			failTestCase("Unable to validate login error. <br> Actual error message :" + we.getText().trim()
+					+ " and expected error message : " + expectedErrorMsg.trim());
 		}
 	}
-	
-	public void verifyLoginScreenPopUp() {
+
+	public void verifyLoginScreenPopUp() throws InterruptedException {
+		reports.log(LogStatus.PASS, "Validate Login popup screen fields");
 		TestUtil.isElementExist(buyerRadioBtn, "Buyer radio button");
 		TestUtil.isElementExist(supplierRadioBtn, "Supplier radio button");
 		TestUtil.isElementExist(buyerRadioBtn, "Buyer radio button");
@@ -171,16 +162,17 @@ public class LoginPage extends TestInitialization {
 		TestUtil.isElementExist(password, "User name Password box");
 		TestUtil.isElementExist(rememberMeCheckBox, "Remember me checkbox");
 		TestUtil.isElementExist(forgotPasswordLink, "Forger password link");
+		reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
 	}
 
 	public void valitateTooltip(String expectedText) throws InterruptedException {
 
 		String expectedVal = emailboxTooltip.getCssValue("display");
 		String actualText = emailboxTooltip.getText();
-		
+
 		System.out.println("expectedVal" + expectedVal);
 		System.out.println("actualText " + actualText);
-		
+
 		if (expectedVal.trim().equalsIgnoreCase("block") && actualText.trim().equalsIgnoreCase(expectedText)) {
 			passTestCase("Tooltip has been shows. Actual Tooltip Text : " + actualText
 					+ " and expected tooltip text is : " + expectedText);
@@ -191,15 +183,14 @@ public class LoginPage extends TestInitialization {
 					+ " and expected tooltip text is : " + expectedText);
 		}
 	}
-	
-	public void navigateToForgotPasswordScreen() throws InterruptedException{
-		
+
+	public void navigateToForgotPasswordScreen() throws InterruptedException {
+
 		TestUtil.click(signinLink, "Sign in link");
 		TestUtil.waitForObjectVisible(emailName, 60, "Sign in email");
-		
+
 		TestUtil.click(forgotPasswordLink, "Forgot password link");
 		TestUtil.waitForObjectVisible(forgotPasswordModal, 60, "Forgot password modal box");
-		
-		
+
 	}
 }

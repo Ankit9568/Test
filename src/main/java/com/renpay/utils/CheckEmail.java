@@ -18,6 +18,8 @@ import javax.mail.search.FlagTerm;
 import javax.mail.search.OrTerm;
 import javax.mail.search.SearchTerm;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 public class CheckEmail extends TestInitialization{
 	/**
 	 * Searches for e-mail messages containing the specified keyword in Subject
@@ -31,6 +33,9 @@ public class CheckEmail extends TestInitialization{
 	 * @throws IOException
 	 */
 
+	
+	
+	
 	private boolean textIsHtml = false;
 
 	/**
@@ -132,6 +137,7 @@ public class CheckEmail extends TestInitialization{
 						System.out.println("At " + i + " :" + "Subject:" + subject);
 						System.out.println("From: " + email + " on : " + message.getReceivedDate());
 						if (getText(message).contains(bodySearchText) == true) {
+							reports.log(LogStatus.PASS, "Email has been found with below html :: <br> "+ getText(message) );
 							System.out.println("Message contains the search text " + bodySearchText);
 							val = true;
 						} else {

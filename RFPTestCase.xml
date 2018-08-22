@@ -1,0 +1,21 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Renepay Testing">
+	<listeners>
+		<listener class-name="com.renpay.utils.TestListenerAdapter" />
+	</listeners>
+	
+
+	<test name="Create RFP test case">
+		<classes>
+			<class name="com.renpay.test.RFPTestCases">
+				<methods>
+					<include name="tc_CreateRFP_001" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+	
+
+</suite>

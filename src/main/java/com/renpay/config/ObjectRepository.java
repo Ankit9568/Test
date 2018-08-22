@@ -52,13 +52,17 @@ public class ObjectRepository {
 		public static final String logoutOpenerLink_xpath = "//li[@class='dropdown'][2]/a";
 		public static final String logoutLink_xpath = "//ul[@class='dropdown-menu dropdown-user']//a[text()='Logout']";
 		
+		public static final String userProfile_xpath = "//ul[@class='dropdown-menu dropdown-user']//a[text()='User Profile']";
+		
 		public static final String renpayLogoImg_ID = "imgLogo";
 		
 		public static final String manageMyaccount_xpath = "//a[text()='Manage Your Account']";
 		
 		public static final String profileEdit_ID = "ProfileEdit";
 		
+		public static final String rpfTabInLeftPannel_xpath = "//a[text()='RFP']";
 		
+		public static final String createRFP_Btn_ID = "RFPCreate";
 	}
 	
 	
@@ -67,11 +71,52 @@ public class ObjectRepository {
 		public static final String updateConfirmBox_xpath = "//div[@id='divConfirm']//p[@id='ContentPlaceHolder1_pRegMsg']";
 		public static final String closerBtn_ID = "ContentPlaceHolder1_btnClose";
 		public static final String submitBtn_ID = "ContentPlaceHolder1_xlnkBtnSubmit";
-		public static final String uploadButton_ID = "ContentPlaceHolder1_xctrlCompanyLogo_imgLogo";
-		
+		public static final String uploadButton_ID = "ContentPlaceHolder1_xctrlCompanyLogo_fileToUpload";
+		public static final String companyAddress_ID = "ContentPlaceHolder1_xtxtAddress1";
+		public static final String deleteUploadImg_xpath = "//a[@class='DelLink']";
+		public static final String deleteUploadImgPopup_xpath = "//div[@class='modal-body']//p[@id='p2']";
+		public static final String popupNoBtn_ID = "lnkDeleteFileConf";
+		public static final String companyWebsite_ID = "ContentPlaceHolder1_xtxtwebsite";
 		
 		
 	}
+	
+	public class CreateRFPScreen{
+		
+		public static final String productName_ID = "ContentPlaceHolder1_xtxtProduct";
+		public static final String oneTimeRadioBtn_ID = "ContentPlaceHolder1_rdbType_0";
+		public static final String recurringRadioBtn_ID = "ContentPlaceHolder1_rdbType_1";
+		public static final String categoryDropdown_ID = "ContentPlaceHolder1_xddlCategory";
+		public static final String subCategoryDropdown_ID = "ContentPlaceHolder1_xddlSubCategory";
+		public static final String descriptionField_ID = "ContentPlaceHolder1_xtxtDescription";
+		public static final String quantityField_ID = "ContentPlaceHolder1_xtxtQty";
+		public static final String unitDropdown_ID = "ContentPlaceHolder1_xddlUnit";
+		public static final String expectedDeliveryDaysField_ID = "ContentPlaceHolder1_xtxtNoDays";
+		public static final String registeredCheckbox_ID = "ContentPlaceHolder1_xchkRegisteredAddr";
+		public static final String shippingAddress_ID = "ContentPlaceHolder1_xtxtRegAdd";
+		public static final String country_ID = "ContentPlaceHolder1_xtxtRegCountry";
+		public static final String state_ID = "ContentPlaceHolder1_xtxtRegState";
+		public static final String city_ID = "ContentPlaceHolder1_xtxtRegCity";
+		public static final String pincode_ID = "ContentPlaceHolder1_xtxtRegPinCode";
+		public static final String creditPeriodDropdown_ID = "ContentPlaceHolder1_xddlCreditPeriod";
+		public static final String rfpDeadlineStartDate_ID = "ContentPlaceHolder1_xtxtStartDate";
+		public static final String rfpDeadlineEndDate_ID = "ContentPlaceHolder1_xtxtEndDate";
+		public static final String createBtn_ID = "ContentPlaceHolder1_xlnkbtnCreate";
+		public static final String newAddressField_ID = "ContentPlaceHolder1_xtxtAdd1";
+		public static final String newAddressCountryDropdown_ID = "ContentPlaceHolder1_xddlCountryAddr1";
+		public static final String newAddressStateDropdown_ID = "ContentPlaceHolder1_xddlStateAddr1";
+		public static final String newAddressCityDropdown_ID = "ContentPlaceHolder1_xddlCityAddr1";
+		public static final String newAddressPincodeField_ID  = "ContentPlaceHolder1_xtxtPincodeAddr1";
+		public static final String suppliersDetailsTable_ID = "tblSupplierList";
+		public static final String addNewAddreddCheckbox_ID = "ContentPlaceHolder1_xchckAddr1";
+		public static final String calander_xpath = "//div[@id='ui-datepicker-div']";
+		public static final String RFPDetailsMsg_xpath = "//div[@class='modal-body']/h4[text()='Your RFP has been set for :']";
+		
+		
+	}
+	
+	
+	
 	
 	public class SignUpScreen{
 		

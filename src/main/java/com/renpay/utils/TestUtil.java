@@ -10,7 +10,6 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-import org.omg.CORBA.portable.RemarshalException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
@@ -45,10 +44,12 @@ public class TestUtil extends TestInitialization {
 		return isVisible;
 	}
 
-	public static void isElementExist(WebElement we, String elementName) {
+	public static void isElementExist(WebElement we, String elementName) throws InterruptedException {
 		// Throws NoSuchElementException in case of element is not visible on
 		// webpage.
-		we.isDisplayed();
+		if(!we.isDisplayed()){
+			failTestCase(elementName + " is not displayed");
+		}
 		reports.log(LogStatus.PASS, elementName + " with text " + we.getText() + " is visible ");
 		log.info("Element is displayed " + elementName);
 	}
@@ -509,6 +510,17 @@ public class TestUtil extends TestInitialization {
 
 		else {
 			failTestCase(checkboxName + " is not selected");
+		}
+	}
+	
+	public static void slectCheckboxIfNotSelected(WebElement we, String checkboxName) throws InterruptedException{
+		
+		reports.log(LogStatus.PASS, "Validate checkbox is selected");
+		if(we.isSelected()){
+			passTestCase("Checkbox is already selected. No need to select.");
+		}
+		else{
+			selectCheckBox(we, checkboxName);
 		}
 	}
 

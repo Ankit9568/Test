@@ -1,0 +1,22 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Renepay Testing">
+	<listeners>
+		<listener class-name="com.renpay.utils.TestListenerAdapter" />
+	</listeners>
+	
+
+	<test name="Buyer Profile test case">
+		<classes>
+			<class name="com.renpay.test.Buyer_ProfileTestCases">
+				<methods>
+					<include name="tc_001_UpdateUserProfile" />
+					<include name="tc_ValidateUserProfileBtn" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+	
+
+</suite>

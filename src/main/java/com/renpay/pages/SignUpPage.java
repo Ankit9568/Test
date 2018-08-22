@@ -37,6 +37,8 @@ public class SignUpPage extends TestInitialization {
 	@FindBy(how = How.ID, using = SignUpScreen.addressCompanyField_ID)
 	public WebElement addressCompanyField;
 
+	
+	
 	@FindBy(how = How.ID, using = SignUpScreen.stateField_ID)
 	public WebElement stateField;
 
@@ -79,13 +81,13 @@ public class SignUpPage extends TestInitialization {
 	public void navigateToSignUpPageAsBuyerAndValidate() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
-
 		TestUtil.click(loginPage.signinLink, "Sign Link");
+		reports.log(LogStatus.PASS, "Validate Application is move to Sign up page");
 		TestUtil.click(loginPage.buyerImgForSignup, "Buyer image");
 		TestUtil.waitForObjectVisible(registerAsBuyerHeading, 60, "Register as a Buyer heading");
 	}
 
-	public void validateSignUpPageFields() {
+	public void validateSignUpPageFields() throws InterruptedException {
 
 		TestUtil.isElementExist(firstNameField, "First Name Field");
 		TestUtil.isElementExist(lastNameField, "Last Name Field");
@@ -192,14 +194,18 @@ public class SignUpPage extends TestInitialization {
 
 	}
 	
+	
+	
 	public void ClickTermsAndConditionAndValidate() throws InterruptedException{
 		
 		TestUtil.click(termsAndCnditionLink, "Terms and condition link");
 		Thread.sleep(2000);
 		ArrayList<String> windowHandleAfterOpenNewTab = new ArrayList<String>(driver.getWindowHandles());
 		log.info("Window size :" + windowHandleAfterOpenNewTab.size());
+		reports.log(LogStatus.PASS, "Terms and condition page successfully displayed");
 		driver.switchTo().window(windowHandleAfterOpenNewTab.get(windowHandleAfterOpenNewTab.size() - 1));
 		TestUtil.isElementExist(termsOfUseHeadingInsideT_And_Cpage, "Heading of Terms and Condition page");
+		reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
 		driver.close();
 		driver.switchTo().window(windowHandleAfterOpenNewTab.get(0));
 	

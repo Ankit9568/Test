@@ -131,8 +131,8 @@ public class TestInitialization extends ObjectRepository {
 				log.info("Validate the application is login or not");
 				try {
 					if (new LoginPage(driver).signinLink.isDisplayed())
-					//	driver.navigate().refresh();
-					applicationLogin();
+						// driver.navigate().refresh();
+						applicationLogin();
 				} catch (NoSuchElementException e) {
 					// Application is not in login page
 					setApplicationHomePage();
@@ -148,12 +148,13 @@ public class TestInitialization extends ObjectRepository {
 
 		reports.startTest("Starting the Test: " + method.getName());
 		try {
+			acceptpopUpIfexist();
 			driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 			log.info("Testcase name is :::::: " + method.getName());
 			currentMethodName = method.getName();
 			if (!(method.getDeclaringClass().getSimpleName().contentEquals("LogInPageTestCase")
-					|| method.getDeclaringClass().getSimpleName().contentEquals("SignupTestCase")) ) {
-				
+					|| method.getDeclaringClass().getSimpleName().contentEquals("SignupTestCase"))) {
+
 				currentMethodName = method.getName();
 				reports.log(LogStatus.PASS, "Start Step : Start with the focus on Home page");
 				try {
@@ -190,21 +191,20 @@ public class TestInitialization extends ObjectRepository {
 		if (loginPage.signinLink.isDisplayed()) {
 			HomePage homePage = new HomePage(driver);
 			loginPage.signinLink.click();
-			
-			
+
 			TestUtil.waitForObjectVisible(loginPage.emailName, 60, "Sign in email");
-			
+
 			String userName = TestUtil.getExcelKeyValue("LogInPage", "UserName", "ValidValues");
 			String password = TestUtil.getExcelKeyValue("LogInPage", "Password", "ValidValues");
 
 			loginPage.emailName.sendKeys(userName);
 			loginPage.password.sendKeys(password);
-			
+
 			loginPage.loginBtn.click();
 			TestUtil.waitForObjectInvisble(By.id(ObjectRepository.pleaseWaitModal_ID), 180,
 					"Please wait modal alertbox");
 
-			TestUtil.waitForObjectVisible(homePage.imageProfile, 120, "User Profile");
+			TestUtil.waitForObjectVisible(homePage.imageProfile, 180, "User Profile");
 
 		} else {
 			log.info("Application is not on login page :" + driver.getCurrentUrl());
@@ -225,13 +225,26 @@ public class TestInitialization extends ObjectRepository {
 				reports.log(LogStatus.PASS, "TestCase Completed : Leave the test case with focus on Home page");
 				try {
 					setApplicationHomePage();
-					reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
 				} catch (Exception e) {
 					e.printStackTrace();
 				} finally {
 					// close DB connection if connected
 					DataBaseConnection.closeDbConnectionIfExist();
 				}
+			}
+
+			else {
+				// Before start each test case of login module we need blank
+				// user
+				// name and blank password
+				try {
+					reports.log(LogStatus.PASS,
+							"TestCase Completed : Leave the test case with focus on Application landing page");
+					setApplicationLoginPage();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
 			}
 
 			executedMethodCount = executedMethodCount + 1;
@@ -307,6 +320,8 @@ public class TestInitialization extends ObjectRepository {
 		try {
 			if (driver.getCurrentUrl().contains("Dashboard.aspx")) {
 				log.info("Application is already on home page");
+				reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
+				
 			} else {
 				// Currently application is not on home page
 				TestUtil.click(homePage.renpayLogoImg, "renpay Logo");
@@ -321,15 +336,21 @@ public class TestInitialization extends ObjectRepository {
 
 	public static void setApplicationLoginPage() throws InterruptedException {
 
-		String url = getBuildParam("ApplicationURL");
+		try {
+			acceptpopUpIfexist();
+			new HomePage(driver).renpayLogoImg.click();
+		} catch (NoSuchElementException e) {
+
+		}
 		try {
 			if (new LoginPage(driver).signinLink.isDisplayed()) {
-				driver.navigate().to(url);
-				reports.log(LogStatus.PASS, "Login page successfully displayed");
+				// driver.navigate().to(url);
+				reports.log(LogStatus.PASS, "Application landing page successfully displayed");
 				reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
 			}
 		} catch (NoSuchElementException e) {
 			log.info("Unable to move login page. trying to logout application");
+
 			// logout application if login
 			applicationLogout();
 		}
@@ -463,5 +484,20 @@ public class TestInitialization extends ObjectRepository {
 		wait.until(
 				ExpectedConditions.presenceOfElementLocated(By.xpath(ObjectRepository.LoginScreen.signinLink_xpath)));
 		System.out.println("Application loaded");
+	}
+
+	public static void acceptpopUpIfexist() {
+
+		LoginPage loginPage = new LoginPage(driver);
+		try {
+			if (loginPage.popupCloseButtonAtModalHeader.isDisplayed()) {
+				log.info("popup found accept it");
+				loginPage.popupCloseButtonAtModalHeader.click();
+			} else {
+				log.info("popup is not found");
+			}
+		} catch (NoSuchElementException e) {
+			log.info("popup is not found ");
+		}
 	}
 }

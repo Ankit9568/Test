@@ -1,0 +1,26 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Renepay Testing">
+	<listeners>
+		<listener class-name="com.renpay.utils.TestListenerAdapter" />
+	</listeners>
+	
+
+	<test name="Signup test case">
+		<classes>
+			<class name="com.renpay.test.SignupTestCase">
+				<methods>
+					<include name="tc_SignUp_001_RedirectToSignUpPage" />
+					<include name="tc_SignUp_002_ValidateSignUpFields" />
+					<include name="tc_SignUP_005_SignUpwithOutMadaoryField" />
+					<include name="tc_SignUP_006_SignUPWithAlreadyRegisterUser" />
+					<include name="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition" />
+					<include name="tc_SignUP_008_VerifyTermsAndConditionLink" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+	
+
+</suite>

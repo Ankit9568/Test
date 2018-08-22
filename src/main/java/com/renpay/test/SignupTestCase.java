@@ -9,23 +9,22 @@ import com.renpay.utils.TestUtil;
 
 public class SignupTestCase extends TestInitialization {
 
+	@Test
 	public void tc_SignUp_001_RedirectToSignUpPage() throws InterruptedException {
 
 		SignUpPage signUppage = new SignUpPage(driver);
 		signUppage.navigateToSignUpPageAsBuyerAndValidate();
 	}
-
+	
+	@Test
 	public void tc_SignUp_002_ValidateSignUpFields() throws InterruptedException {
 
 		SignUpPage signUppage = new SignUpPage(driver);
 		signUppage.navigateToSignUpPageAsBuyerAndValidate();
 		signUppage.validateSignUpPageFields();
 	}
-
-	public void tc_SignUp_004_ValidateSignUpWithBlankEntry(){
-		// Same scenerio is coverded is tc_003 as well
-	}
 	
+	@Test
 	public void tc_SignUP_005_SignUpwithOutMadaoryField() throws InterruptedException {
 
 		SignUpPage signUppage = new SignUpPage(driver);
@@ -34,7 +33,8 @@ public class SignupTestCase extends TestInitialization {
 		signUppage.clickRegisterBtnAndValidateErrorMsg(signUppage.firstNameField, "First Name",
 				TestUtil.getExcelKeyValue("ErrorMessages", "SignUpError", "Message"));
 	}
-
+	
+	@Test
 	public void tc_SignUP_006_SignUPWithAlreadyRegisterUser() throws InterruptedException {
 
 		SignUpPage signUppage = new SignUpPage(driver);
@@ -43,7 +43,6 @@ public class SignupTestCase extends TestInitialization {
 		signUppage.fillMandatoryData("AlreadyRegisteredUser");
 		TestUtil.click(signUppage.termsAndConditionCheckbox, "Terms and condition checkbox");
 		signUppage.fillOptionalField("AlreadyRegisteredUser");
-		System.out.println("filled");
 		TestUtil.click(signUppage.registerBtn, "Register Button");
 		loginPage.validateLoginErrorMsg(
 				TestUtil.getExcelKeyValue("ErrorMessages", "AlreadyRegisteredUserErrorMsg", "Message").trim(),
@@ -52,7 +51,7 @@ public class SignupTestCase extends TestInitialization {
 
 	}
 
-	
+	@Test
 	public void tc_SignUP_007_SignUPWithoutSelectTermsAndCondition() throws InterruptedException {
 
 		SignUpPage signUppage = new SignUpPage(driver);
@@ -74,29 +73,18 @@ public class SignupTestCase extends TestInitialization {
 	
 	}
 	
-	public void tc_SignUP_009_EnterEmail_UserName(){
-		
-		// Nothing to do validate
-	}
 	
-	public void tc_SignUP_010_VerifyPasswordLimit() throws InterruptedException{
+	
+	public void tc_SignUp_012_AfterSignUPValidateActivationLink() throws InterruptedException{
 		
+		// To Do pending
 		SignUpPage signUppage = new SignUpPage(driver);
 		signUppage.navigateToSignUpPageAsBuyerAndValidate();
-		// Think about it
+		signUppage.fillMandatoryData("UnRegisteredUserValue");
+		signUppage.fillOptionalField("UnRegisteredUserValue");
+		TestUtil.click(signUppage.termsAndConditionCheckbox, "Terms And Condition Checkbox");
 		
 		
-	}
-	
-	
-	public void tc_SignUP_011_ClickOnSignUpBtn(){
-		
-		// Need Every time new Email
-	}
-	
-	public void tc_SignUp_012_AfterSignUPValidateActivationLink(){
-		
-		// Need Every time new Email
 	}
 	
 }
