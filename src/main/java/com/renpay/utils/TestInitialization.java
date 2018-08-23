@@ -35,7 +35,6 @@ import org.testng.annotations.BeforeSuite;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 import com.renpay.config.ObjectRepository;
-import com.renpay.dbConnection.DataBaseConnection;
 import com.renpay.pages.HomePage;
 import com.renpay.pages.LoginPage;
 

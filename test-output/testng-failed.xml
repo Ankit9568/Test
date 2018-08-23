@@ -20,20 +20,4 @@
       </class> <!-- com.renpay.test.LogInPageTestCase -->
     </classes>
   </test> <!-- Login test case(failed) -->
-  <test name="Signup test case(failed)">
-    <classes>
-      <class name="com.renpay.test.SignupTestCase">
-        <methods>
-          <include name="afterMethodCalled"/>
-          <include name="beforeClass"/>
-          <include name="suiteEndReached"/>
-          <include name="tc_SignUP_006_SignUPWithAlreadyRegisterUser"/>
-          <include name="afterClass"/>
-          <include name="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition"/>
-          <include name="Setup"/>
-          <include name="beforeMethodCalled"/>
-        </methods>
-      </class> <!-- com.renpay.test.SignupTestCase -->
-    </classes>
-  </test> <!-- Signup test case(failed) -->
 </suite> <!-- Failed suite [Renepay Testing] -->
