@@ -329,8 +329,11 @@ public class TestInitialization extends ObjectRepository {
 				reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
 
 			} else {
+				try{
 				// Currently application is not on home page
 				TestUtil.click(homePage.renpayLogoImg, "renpay Logo");
+				}
+				catch(Exception e){}
 			}
 		}
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="4" ignored="0" total="20" passed="15">
+<testng-results skipped="0" failed="2" ignored="0" total="20" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Renepay Testing" duration-ms="694401" started-at="2018-08-23T06:15:14Z" finished-at="2018-08-23T06:26:48Z">
+  <suite name="Renepay Testing" duration-ms="894162" started-at="2018-08-23T07:48:45Z" finished-at="2018-08-23T08:03:39Z">
     <groups>
     </groups>
-    <test name="Login test case" duration-ms="451916" started-at="2018-08-23T06:15:14Z" finished-at="2018-08-23T06:22:46Z">
+    <test name="Login test case" duration-ms="453995" started-at="2018-08-23T07:48:45Z" finished-at="2018-08-23T07:56:19Z">
       <class name="com.renpay.test.LogInPageTestCase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeClass" is-config="true" duration-ms="10" started-at="2018-08-23T11:45:14Z" finished-at="2018-08-23T11:45:14Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeClass" is-config="true" duration-ms="12" started-at="2018-08-23T13:18:45Z" finished-at="2018-08-23T13:18:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2797" started-at="2018-08-23T11:45:14Z" finished-at="2018-08-23T11:45:17Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2890" started-at="2018-08-23T13:18:45Z" finished-at="2018-08-23T13:18:48Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_Login_001_VerifyLoginPopup()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_001_VerifyLoginPopup" duration-ms="5120" started-at="2018-08-23T11:45:17Z" finished-at="2018-08-23T11:45:22Z">
+        <test-method status="PASS" signature="tc_Login_001_VerifyLoginPopup()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_001_VerifyLoginPopup" duration-ms="5196" started-at="2018-08-23T13:18:48Z" finished-at="2018-08-23T13:18:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_001_VerifyLoginPopup -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="32917" started-at="2018-08-23T11:45:22Z" finished-at="2018-08-23T11:45:55Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="33037" started-at="2018-08-23T13:18:53Z" finished-at="2018-08-23T13:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2739" started-at="2018-08-23T11:45:55Z" finished-at="2018-08-23T11:45:58Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2842" started-at="2018-08-23T13:19:26Z" finished-at="2018-08-23T13:19:29Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_Login_002_VerifyLoginScreenField()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_002_VerifyLoginScreenField" duration-ms="5733" started-at="2018-08-23T11:45:58Z" finished-at="2018-08-23T11:46:03Z">
+        <test-method status="PASS" signature="tc_Login_002_VerifyLoginScreenField()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_002_VerifyLoginScreenField" duration-ms="5787" started-at="2018-08-23T13:19:29Z" finished-at="2018-08-23T13:19:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_002_VerifyLoginScreenField -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="32817" started-at="2018-08-23T11:46:03Z" finished-at="2018-08-23T11:46:36Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="32786" started-at="2018-08-23T13:19:35Z" finished-at="2018-08-23T13:20:07Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2708" started-at="2018-08-23T11:46:36Z" finished-at="2018-08-23T11:46:39Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2795" started-at="2018-08-23T13:20:07Z" finished-at="2018-08-23T13:20:10Z">
           <params>
             <param index="0">
               <value>
@@ -74,11 +74,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_Login_007_login_validUserAndvalidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_007_login_validUserAndvalidPwd" duration-ms="20541" started-at="2018-08-23T11:46:39Z" finished-at="2018-08-23T11:46:59Z">
+        <test-method status="PASS" signature="tc_Login_007_login_validUserAndvalidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_007_login_validUserAndvalidPwd" duration-ms="21080" started-at="2018-08-23T13:20:10Z" finished-at="2018-08-23T13:20:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_007_login_validUserAndvalidPwd -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2839" started-at="2018-08-23T11:46:59Z" finished-at="2018-08-23T11:47:02Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2900" started-at="2018-08-23T13:20:31Z" finished-at="2018-08-23T13:20:34Z">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2837" started-at="2018-08-23T11:47:02Z" finished-at="2018-08-23T11:47:05Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2810" started-at="2018-08-23T13:20:34Z" finished-at="2018-08-23T13:20:37Z">
           <params>
             <param index="0">
               <value>
@@ -100,11 +100,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_Login_004_Login_With_BlankUser_Pwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_004_Login_With_BlankUser_Pwd" duration-ms="15187" started-at="2018-08-23T11:47:05Z" finished-at="2018-08-23T11:47:20Z">
+        <test-method status="PASS" signature="tc_Login_004_Login_With_BlankUser_Pwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_004_Login_With_BlankUser_Pwd" duration-ms="15220" started-at="2018-08-23T13:20:37Z" finished-at="2018-08-23T13:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_004_Login_With_BlankUser_Pwd -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="32907" started-at="2018-08-23T11:47:20Z" finished-at="2018-08-23T11:47:53Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="32980" started-at="2018-08-23T13:20:52Z" finished-at="2018-08-23T13:21:25Z">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2695" started-at="2018-08-23T11:47:53Z" finished-at="2018-08-23T11:47:56Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2780" started-at="2018-08-23T13:21:25Z" finished-at="2018-08-23T13:21:28Z">
           <params>
             <param index="0">
               <value>
@@ -126,11 +126,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_Login_005_login_ValidUserAndInvalidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_005_login_ValidUserAndInvalidPwd" duration-ms="18077" started-at="2018-08-23T11:47:56Z" finished-at="2018-08-23T11:48:14Z">
+        <test-method status="PASS" signature="tc_Login_005_login_ValidUserAndInvalidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_005_login_ValidUserAndInvalidPwd" duration-ms="17228" started-at="2018-08-23T13:21:28Z" finished-at="2018-08-23T13:21:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_005_login_ValidUserAndInvalidPwd -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2666" started-at="2018-08-23T11:48:14Z" finished-at="2018-08-23T11:48:17Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2712" started-at="2018-08-23T13:21:45Z" finished-at="2018-08-23T13:21:48Z">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2852" started-at="2018-08-23T11:48:17Z" finished-at="2018-08-23T11:48:19Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2935" started-at="2018-08-23T13:21:48Z" finished-at="2018-08-23T13:21:51Z">
           <params>
             <param index="0">
               <value>
@@ -152,11 +152,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_Login_006_login_InValidUserAndValidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_006_login_InValidUserAndValidPwd" duration-ms="17132" started-at="2018-08-23T11:48:19Z" finished-at="2018-08-23T11:48:37Z">
+        <test-method status="PASS" signature="tc_Login_006_login_InValidUserAndValidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_006_login_InValidUserAndValidPwd" duration-ms="17796" started-at="2018-08-23T13:21:51Z" finished-at="2018-08-23T13:22:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_006_login_InValidUserAndValidPwd -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2665" started-at="2018-08-23T11:48:37Z" finished-at="2018-08-23T11:48:39Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2732" started-at="2018-08-23T13:22:09Z" finished-at="2018-08-23T13:22:11Z">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2853" started-at="2018-08-23T11:48:39Z" finished-at="2018-08-23T11:48:42Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2954" started-at="2018-08-23T13:22:11Z" finished-at="2018-08-23T13:22:14Z">
           <params>
             <param index="0">
               <value>
@@ -178,11 +178,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_Login_008_login_InValidUserAndInValidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_008_login_InValidUserAndInValidPwd" duration-ms="17527" started-at="2018-08-23T11:48:42Z" finished-at="2018-08-23T11:49:00Z">
+        <test-method status="PASS" signature="tc_Login_008_login_InValidUserAndInValidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_008_login_InValidUserAndInValidPwd" duration-ms="17292" started-at="2018-08-23T13:22:14Z" finished-at="2018-08-23T13:22:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_008_login_InValidUserAndInValidPwd -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2671" started-at="2018-08-23T11:49:00Z" finished-at="2018-08-23T11:49:02Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2722" started-at="2018-08-23T13:22:32Z" finished-at="2018-08-23T13:22:34Z">
           <params>
             <param index="0">
               <value>
@@ -193,7 +193,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2847" started-at="2018-08-23T11:49:02Z" finished-at="2018-08-23T11:49:05Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2944" started-at="2018-08-23T13:22:34Z" finished-at="2018-08-23T13:22:37Z">
           <params>
             <param index="0">
               <value>
@@ -204,7 +204,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_Login_009_VerifyRememberMeSelectFunctionality()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_009_VerifyRememberMeSelectFunctionality" duration-ms="38353" started-at="2018-08-23T11:49:05Z" finished-at="2018-08-23T11:49:43Z">
+        <test-method status="FAIL" signature="tc_Login_009_VerifyRememberMeSelectFunctionality()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_009_VerifyRememberMeSelectFunctionality" duration-ms="38367" started-at="2018-08-23T13:22:37Z" finished-at="2018-08-23T13:23:16Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: imgProfile' (tried for 10 second(s) with 500 MILLISECONDS interval)]]>
@@ -243,13 +243,13 @@
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"imgProfile"}
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10 milliseconds
+Command duration or timeout: 9 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir36288_32467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6294f47665c20c9ccbb56aee2e22c53c
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir37264_6304}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9f4103d579e92c79e0037dad2c1956c8
 *** Element info: {Using=id, value=imgProfile}
 	at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -276,7 +276,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_009_VerifyRememberMeSelectFunctionality -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="32908" started-at="2018-08-23T11:49:46Z" finished-at="2018-08-23T11:50:19Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="32949" started-at="2018-08-23T13:23:18Z" finished-at="2018-08-23T13:23:51Z">
           <params>
             <param index="0">
               <value>
@@ -287,7 +287,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2862" started-at="2018-08-23T11:50:19Z" finished-at="2018-08-23T11:50:22Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2949" started-at="2018-08-23T13:23:51Z" finished-at="2018-08-23T13:23:54Z">
           <params>
             <param index="0">
               <value>
@@ -298,7 +298,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_Login_010_VerifyRememberMeUnselectFunctionality()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_010_VerifyRememberMeUnselectFunctionality" duration-ms="25798" started-at="2018-08-23T11:50:22Z" finished-at="2018-08-23T11:50:47Z">
+        <test-method status="FAIL" signature="tc_Login_010_VerifyRememberMeUnselectFunctionality()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_010_VerifyRememberMeUnselectFunctionality" duration-ms="25809" started-at="2018-08-23T13:23:54Z" finished-at="2018-08-23T13:24:20Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[User name and password is not blank]]>
@@ -306,7 +306,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: User name and password is not blank
 	at org.testng.Assert.fail(Assert.java:93)
-	at com.renpay.utils.TestInitialization.failTestCase(TestInitialization.java:395)
+	at com.renpay.utils.TestInitialization.failTestCase(TestInitialization.java:398)
 	at com.renpay.test.LogInPageTestCase.tc_Login_010_VerifyRememberMeUnselectFunctionality(LogInPageTestCase.java:127)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -339,7 +339,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_010_VerifyRememberMeUnselectFunctionality -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="32779" started-at="2018-08-23T11:50:50Z" finished-at="2018-08-23T11:51:23Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="32857" started-at="2018-08-23T13:24:22Z" finished-at="2018-08-23T13:24:55Z">
           <params>
             <param index="0">
               <value>
@@ -350,7 +350,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2823" started-at="2018-08-23T11:51:23Z" finished-at="2018-08-23T11:51:26Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2966" started-at="2018-08-23T13:24:55Z" finished-at="2018-08-23T13:24:58Z">
           <params>
             <param index="0">
               <value>
@@ -361,11 +361,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_F_Password001_ForgatPwdWithInvalidEmail()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_F_Password001_ForgatPwdWithInvalidEmail" duration-ms="15867" started-at="2018-08-23T11:51:26Z" finished-at="2018-08-23T11:51:41Z">
+        <test-method status="PASS" signature="tc_F_Password001_ForgatPwdWithInvalidEmail()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_F_Password001_ForgatPwdWithInvalidEmail" duration-ms="15925" started-at="2018-08-23T13:24:58Z" finished-at="2018-08-23T13:25:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_F_Password001_ForgatPwdWithInvalidEmail -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2900" started-at="2018-08-23T11:51:41Z" finished-at="2018-08-23T11:51:44Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2880" started-at="2018-08-23T13:25:14Z" finished-at="2018-08-23T13:25:17Z">
           <params>
             <param index="0">
               <value>
@@ -376,7 +376,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2866" started-at="2018-08-23T11:51:44Z" finished-at="2018-08-23T11:51:47Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2914" started-at="2018-08-23T13:25:17Z" finished-at="2018-08-23T13:25:20Z">
           <params>
             <param index="0">
               <value>
@@ -387,11 +387,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_F_Password004_ForgatPwdWithValidEmail()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_F_Password004_ForgatPwdWithValidEmail" duration-ms="55992" started-at="2018-08-23T11:51:47Z" finished-at="2018-08-23T11:52:43Z">
+        <test-method status="PASS" signature="tc_F_Password004_ForgatPwdWithValidEmail()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_F_Password004_ForgatPwdWithValidEmail" duration-ms="56055" started-at="2018-08-23T13:25:20Z" finished-at="2018-08-23T13:26:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_F_Password004_ForgatPwdWithValidEmail -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2701" started-at="2018-08-23T11:52:43Z" finished-at="2018-08-23T11:52:46Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2926" started-at="2018-08-23T13:26:16Z" finished-at="2018-08-23T13:26:19Z">
           <params>
             <param index="0">
               <value>
@@ -402,11 +402,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-23T11:52:46Z" finished-at="2018-08-23T11:52:46Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-23T13:26:19Z" finished-at="2018-08-23T13:26:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2f1ff2ea]]>
+                <![CDATA[org.testng.TestRunner@3ea5dab]]>
               </value>
             </param>
           </params>
@@ -415,13 +415,13 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
         </test-method> <!-- afterClass -->
       </class> <!-- com.renpay.test.LogInPageTestCase -->
     </test> <!-- Login test case -->
-    <test name="Signup test case" duration-ms="189082" started-at="2018-08-23T06:22:46Z" finished-at="2018-08-23T06:25:55Z">
+    <test name="Signup test case" duration-ms="189270" started-at="2018-08-23T07:56:19Z" finished-at="2018-08-23T07:59:28Z">
       <class name="com.renpay.test.SignupTestCase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeClass" is-config="true" duration-ms="12" started-at="2018-08-23T11:52:46Z" finished-at="2018-08-23T11:52:46Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeClass" is-config="true" duration-ms="9" started-at="2018-08-23T13:26:19Z" finished-at="2018-08-23T13:26:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2712" started-at="2018-08-23T11:52:46Z" finished-at="2018-08-23T11:52:49Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2921" started-at="2018-08-23T13:26:19Z" finished-at="2018-08-23T13:26:22Z">
           <params>
             <param index="0">
               <value>
@@ -432,11 +432,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_SignUp_001_RedirectToSignUpPage()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUp_001_RedirectToSignUpPage" duration-ms="5654" started-at="2018-08-23T11:52:49Z" finished-at="2018-08-23T11:52:54Z">
+        <test-method status="PASS" signature="tc_SignUp_001_RedirectToSignUpPage()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUp_001_RedirectToSignUpPage" duration-ms="5210" started-at="2018-08-23T13:26:22Z" finished-at="2018-08-23T13:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUp_001_RedirectToSignUpPage -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4937" started-at="2018-08-23T11:52:54Z" finished-at="2018-08-23T11:52:59Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4030" started-at="2018-08-23T13:26:27Z" finished-at="2018-08-23T13:26:31Z">
           <params>
             <param index="0">
               <value>
@@ -447,7 +447,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2694" started-at="2018-08-23T11:52:59Z" finished-at="2018-08-23T11:53:02Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2778" started-at="2018-08-23T13:26:31Z" finished-at="2018-08-23T13:26:34Z">
           <params>
             <param index="0">
               <value>
@@ -458,11 +458,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_SignUp_002_ValidateSignUpFields()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUp_002_ValidateSignUpFields" duration-ms="6487" started-at="2018-08-23T11:53:02Z" finished-at="2018-08-23T11:53:08Z">
+        <test-method status="PASS" signature="tc_SignUp_002_ValidateSignUpFields()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUp_002_ValidateSignUpFields" duration-ms="6872" started-at="2018-08-23T13:26:34Z" finished-at="2018-08-23T13:26:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUp_002_ValidateSignUpFields -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4369" started-at="2018-08-23T11:53:08Z" finished-at="2018-08-23T11:53:13Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4193" started-at="2018-08-23T13:26:41Z" finished-at="2018-08-23T13:26:45Z">
           <params>
             <param index="0">
               <value>
@@ -473,7 +473,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2707" started-at="2018-08-23T11:53:13Z" finished-at="2018-08-23T11:53:15Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2753" started-at="2018-08-23T13:26:45Z" finished-at="2018-08-23T13:26:48Z">
           <params>
             <param index="0">
               <value>
@@ -484,11 +484,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_SignUP_005_SignUpwithOutMadaoryField()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_005_SignUpwithOutMadaoryField" duration-ms="23658" started-at="2018-08-23T11:53:15Z" finished-at="2018-08-23T11:53:39Z">
+        <test-method status="PASS" signature="tc_SignUP_005_SignUpwithOutMadaoryField()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_005_SignUpwithOutMadaoryField" duration-ms="22609" started-at="2018-08-23T13:26:48Z" finished-at="2018-08-23T13:27:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUP_005_SignUpwithOutMadaoryField -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4978" started-at="2018-08-23T11:53:39Z" finished-at="2018-08-23T11:53:44Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="6142" started-at="2018-08-23T13:27:10Z" finished-at="2018-08-23T13:27:16Z">
           <params>
             <param index="0">
               <value>
@@ -499,7 +499,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2705" started-at="2018-08-23T11:53:44Z" finished-at="2018-08-23T11:53:47Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="4385" started-at="2018-08-23T13:27:16Z" finished-at="2018-08-23T13:27:21Z">
           <params>
             <param index="0">
               <value>
@@ -510,11 +510,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_SignUP_006_SignUPWithAlreadyRegisterUser()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_006_SignUPWithAlreadyRegisterUser" duration-ms="44941" started-at="2018-08-23T11:53:47Z" finished-at="2018-08-23T11:54:32Z">
+        <test-method status="PASS" signature="tc_SignUP_006_SignUPWithAlreadyRegisterUser()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_006_SignUPWithAlreadyRegisterUser" duration-ms="44572" started-at="2018-08-23T13:27:21Z" finished-at="2018-08-23T13:28:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUP_006_SignUPWithAlreadyRegisterUser -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="5196" started-at="2018-08-23T11:54:32Z" finished-at="2018-08-23T11:54:37Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4378" started-at="2018-08-23T13:28:05Z" finished-at="2018-08-23T13:28:10Z">
           <params>
             <param index="0">
               <value>
@@ -525,7 +525,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2744" started-at="2018-08-23T11:54:37Z" finished-at="2018-08-23T11:54:40Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2808" started-at="2018-08-23T13:28:10Z" finished-at="2018-08-23T13:28:13Z">
           <params>
             <param index="0">
               <value>
@@ -536,11 +536,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition" duration-ms="50304" started-at="2018-08-23T11:54:40Z" finished-at="2018-08-23T11:55:30Z">
+        <test-method status="PASS" signature="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition" duration-ms="50555" started-at="2018-08-23T13:28:13Z" finished-at="2018-08-23T13:29:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUP_007_SignUPWithoutSelectTermsAndCondition -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4530" started-at="2018-08-23T11:55:30Z" finished-at="2018-08-23T11:55:35Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4158" started-at="2018-08-23T13:29:03Z" finished-at="2018-08-23T13:29:07Z">
           <params>
             <param index="0">
               <value>
@@ -551,7 +551,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2697" started-at="2018-08-23T11:55:35Z" finished-at="2018-08-23T11:55:37Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2789" started-at="2018-08-23T13:29:07Z" finished-at="2018-08-23T13:29:10Z">
           <params>
             <param index="0">
               <value>
@@ -562,11 +562,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_SignUP_008_VerifyTermsAndConditionLink()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_008_VerifyTermsAndConditionLink" duration-ms="13657" started-at="2018-08-23T11:55:37Z" finished-at="2018-08-23T11:55:51Z">
+        <test-method status="PASS" signature="tc_SignUP_008_VerifyTermsAndConditionLink()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_008_VerifyTermsAndConditionLink" duration-ms="13499" started-at="2018-08-23T13:29:10Z" finished-at="2018-08-23T13:29:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUP_008_VerifyTermsAndConditionLink -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4094" started-at="2018-08-23T11:55:51Z" finished-at="2018-08-23T11:55:55Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4601" started-at="2018-08-23T13:29:24Z" finished-at="2018-08-23T13:29:28Z">
           <params>
             <param index="0">
               <value>
@@ -577,11 +577,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-08-23T11:55:55Z" finished-at="2018-08-23T11:55:55Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-08-23T13:29:28Z" finished-at="2018-08-23T13:29:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@57299f27]]>
+                <![CDATA[org.testng.TestRunner@2b126e06]]>
               </value>
             </param>
           </params>
@@ -590,13 +590,13 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
         </test-method> <!-- afterClass -->
       </class> <!-- com.renpay.test.SignupTestCase -->
     </test> <!-- Signup test case -->
-    <test name="Buyer Profile test case" duration-ms="50849" started-at="2018-08-23T06:25:55Z" finished-at="2018-08-23T06:26:46Z">
+    <test name="Buyer Profile test case" duration-ms="64820" started-at="2018-08-23T07:59:28Z" finished-at="2018-08-23T08:00:33Z">
       <class name="com.renpay.test.Buyer_ProfileTestCases">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeClass" is-config="true" duration-ms="3531" started-at="2018-08-23T11:55:55Z" finished-at="2018-08-23T11:55:59Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeClass" is-config="true" duration-ms="2616" started-at="2018-08-23T13:29:28Z" finished-at="2018-08-23T13:29:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeMethodCalled" is-config="true" duration-ms="2403" started-at="2018-08-23T11:55:59Z" finished-at="2018-08-23T11:56:01Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeMethodCalled" is-config="true" duration-ms="2427" started-at="2018-08-23T13:29:31Z" finished-at="2018-08-23T13:29:33Z">
           <params>
             <param index="0">
               <value>
@@ -607,76 +607,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_001_UpdateUserProfile()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="tc_001_UpdateUserProfile" duration-ms="39682" started-at="2018-08-23T11:56:01Z" finished-at="2018-08-23T11:56:41Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.03 seconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir36288_32467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6294f47665c20c9ccbb56aee2e22c53c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.03 seconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir36288_32467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6294f47665c20c9ccbb56aee2e22c53c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at com.renpay.test.Buyer_ProfileTestCases.tc_001_UpdateUserProfile(Buyer_ProfileTestCases.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="tc_001_UpdateUserProfile()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="tc_001_UpdateUserProfile" duration-ms="27861" started-at="2018-08-23T13:29:33Z" finished-at="2018-08-23T13:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_001_UpdateUserProfile -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="afterMethodCalled" is-config="true" duration-ms="143" started-at="2018-08-23T11:56:43Z" finished-at="2018-08-23T11:56:43Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="afterMethodCalled" is-config="true" duration-ms="2340" started-at="2018-08-23T13:30:01Z" finished-at="2018-08-23T13:30:03Z">
           <params>
             <param index="0">
               <value>
@@ -687,7 +622,7 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeMethodCalled" is-config="true" duration-ms="187" started-at="2018-08-23T11:56:43Z" finished-at="2018-08-23T11:56:43Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeMethodCalled" is-config="true" duration-ms="2424" started-at="2018-08-23T13:30:03Z" finished-at="2018-08-23T13:30:06Z">
           <params>
             <param index="0">
               <value>
@@ -698,78 +633,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_ValidateUserProfileBtn()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="tc_ValidateUserProfileBtn" duration-ms="102" started-at="2018-08-23T11:56:43Z" finished-at="2018-08-23T11:56:43Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <a class="dropdown-toggle" data-toggle="dropdown" href="#">...</a> is not clickable at point (1471, 40). Other element would receive the click: <div class="modal fade in" id="divProgressBox" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir36288_32467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6294f47665c20c9ccbb56aee2e22c53c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <a class="dropdown-toggle" data-toggle="dropdown" href="#">...</a> is not clickable at point (1471, 40). Other element would receive the click: <div class="modal fade in" id="divProgressBox" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir36288_32467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6294f47665c20c9ccbb56aee2e22c53c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.ProfilePage.navigateToUserProfile(ProfilePage.java:166)
-	at com.renpay.test.Buyer_ProfileTestCases.tc_ValidateUserProfileBtn(Buyer_ProfileTestCases.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_ValidateUserProfileBtn()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="tc_ValidateUserProfileBtn" duration-ms="23329" started-at="2018-08-23T13:30:06Z" finished-at="2018-08-23T13:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_ValidateUserProfileBtn -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="afterMethodCalled" is-config="true" duration-ms="118" started-at="2018-08-23T11:56:46Z" finished-at="2018-08-23T11:56:46Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="afterMethodCalled" is-config="true" duration-ms="3822" started-at="2018-08-23T13:30:29Z" finished-at="2018-08-23T13:30:33Z">
           <params>
             <param index="0">
               <value>
@@ -780,11 +648,11 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-08-23T11:56:46Z" finished-at="2018-08-23T11:56:46Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-08-23T13:30:33Z" finished-at="2018-08-23T13:30:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@33dc231d]]>
+                <![CDATA[org.testng.TestRunner@ad52f48]]>
               </value>
             </param>
           </params>
@@ -793,163 +661,54 @@ Session ID: 6294f47665c20c9ccbb56aee2e22c53c
         </test-method> <!-- afterClass -->
       </class> <!-- com.renpay.test.Buyer_ProfileTestCases -->
     </test> <!-- Buyer Profile test case -->
-    <test name="Create RFP test case" duration-ms="2500" started-at="2018-08-23T06:26:46Z" finished-at="2018-08-23T06:26:48Z">
+    <test name="Create RFP test case" duration-ms="186024" started-at="2018-08-23T08:00:33Z" finished-at="2018-08-23T08:03:39Z">
       <class name="com.renpay.test.RFPTestCases">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="Setup" is-config="true" duration-ms="9657" started-at="2018-08-23T11:45:04Z" finished-at="2018-08-23T11:45:14Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="Setup" is-config="true" duration-ms="9393" started-at="2018-08-23T13:18:35Z" finished-at="2018-08-23T13:18:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="beforeClass" is-config="true" duration-ms="150" started-at="2018-08-23T11:56:46Z" finished-at="2018-08-23T11:56:46Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <img id="imgLogo" src="/RenepayIN/images/logo-infiauction.jpg"> is not clickable at point (125, 42). Other element would receive the click: <div class="modal fade in" id="divProgressBox" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir36288_32467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6294f47665c20c9ccbb56aee2e22c53c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <img id="imgLogo" src="/RenepayIN/images/logo-infiauction.jpg"> is not clickable at point (125, 42). Other element would receive the click: <div class="modal fade in" id="divProgressBox" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir36288_32467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6294f47665c20c9ccbb56aee2e22c53c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.utils.TestInitialization.setApplicationHomePage(TestInitialization.java:333)
-	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:138)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="beforeClass" is-config="true" duration-ms="2406" started-at="2018-08-23T13:30:33Z" finished-at="2018-08-23T13:30:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="beforeMethodCalled" is-config="true" duration-ms="0" started-at="2018-08-23T11:56:46Z" finished-at="2018-08-23T11:56:46Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="beforeMethodCalled" is-config="true" duration-ms="2406" started-at="2018-08-23T13:30:35Z" finished-at="2018-08-23T13:30:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.RFPTestCases.tc_CreateRFP_001() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="SKIP" signature="tc_CreateRFP_001()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="tc_CreateRFP_001" duration-ms="0" started-at="2018-08-23T11:56:46Z" finished-at="2018-08-23T11:56:46Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <img id="imgLogo" src="/RenepayIN/images/logo-infiauction.jpg"> is not clickable at point (125, 42). Other element would receive the click: <div class="modal fade in" id="divProgressBox" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir36288_32467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6294f47665c20c9ccbb56aee2e22c53c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <img id="imgLogo" src="/RenepayIN/images/logo-infiauction.jpg"> is not clickable at point (125, 42). Other element would receive the click: <div class="modal fade in" id="divProgressBox" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir36288_32467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 6294f47665c20c9ccbb56aee2e22c53c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.utils.TestInitialization.setApplicationHomePage(TestInitialization.java:333)
-	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:138)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_CreateRFP_001()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="tc_CreateRFP_001" duration-ms="178844" started-at="2018-08-23T13:30:38Z" finished-at="2018-08-23T13:33:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_CreateRFP_001 -->
-        <test-method status="SKIP" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-23T11:56:48Z" finished-at="2018-08-23T11:56:48Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="afterMethodCalled" is-config="true" duration-ms="2366" started-at="2018-08-23T13:33:37Z" finished-at="2018-08-23T13:33:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.RFPTestCases.tc_CreateRFP_001() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCalled -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-23T13:33:39Z" finished-at="2018-08-23T13:33:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@630b16c9]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="SKIP" signature="suiteEndReached()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="suiteEndReached" is-config="true" duration-ms="0" started-at="2018-08-23T11:56:48Z" finished-at="2018-08-23T11:56:48Z">
+        <test-method status="PASS" signature="suiteEndReached()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="suiteEndReached" is-config="true" duration-ms="10586" started-at="2018-08-23T13:33:39Z" finished-at="2018-08-23T13:33:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteEndReached -->
