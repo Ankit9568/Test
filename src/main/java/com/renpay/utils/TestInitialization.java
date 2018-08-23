@@ -494,6 +494,7 @@ public class TestInitialization extends ObjectRepository {
 	public static void acceptpopUpIfexist() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
+		handlePlesaeWait();
 		try {
 			if (loginPage.popupCloseButtonAtModalHeader.isDisplayed()) {
 				log.info("popup found accept it");
@@ -516,5 +517,20 @@ public class TestInitialization extends ObjectRepository {
 			log.info("popup is not found ");
 		}
 
+	}
+	
+	public static void handlePlesaeWait(){
+			
+		try{
+			if(driver.findElement(By.id(ObjectRepository.pleaseWaitModal_ID)).isDisplayed()){
+				log.info("Plesae wait shows trying to refresh application");
+				driver.navigate().refresh();
+			}
+			else{
+				log.info("Please wait is not found ");
+			}
+			
+		}
+		catch(Exception e){}
 	}
 }

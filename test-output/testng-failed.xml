@@ -20,4 +20,35 @@
       </class> <!-- com.renpay.test.LogInPageTestCase -->
     </classes>
   </test> <!-- Login test case(failed) -->
+  <test name="Buyer Profile test case(failed)">
+    <classes>
+      <class name="com.renpay.test.Buyer_ProfileTestCases">
+        <methods>
+          <include name="afterMethodCalled"/>
+          <include name="beforeClass"/>
+          <include name="tc_ValidateUserProfileBtn"/>
+          <include name="suiteEndReached"/>
+          <include name="tc_001_UpdateUserProfile"/>
+          <include name="afterClass"/>
+          <include name="Setup"/>
+          <include name="beforeMethodCalled"/>
+        </methods>
+      </class> <!-- com.renpay.test.Buyer_ProfileTestCases -->
+    </classes>
+  </test> <!-- Buyer Profile test case(failed) -->
+  <test name="Create RFP test case(failed)">
+    <classes>
+      <class name="com.renpay.test.RFPTestCases">
+        <methods>
+          <include name="tc_CreateRFP_001"/>
+          <include name="afterMethodCalled"/>
+          <include name="beforeClass"/>
+          <include name="suiteEndReached"/>
+          <include name="afterClass"/>
+          <include name="Setup"/>
+          <include name="beforeMethodCalled"/>
+        </methods>
+      </class> <!-- com.renpay.test.RFPTestCases -->
+    </classes>
+  </test> <!-- Create RFP test case(failed) -->
 </suite> <!-- Failed suite [Renepay Testing] -->
