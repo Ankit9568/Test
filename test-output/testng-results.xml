@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="14" ignored="0" total="20" passed="3">
+<testng-results skipped="0" failed="4" ignored="0" total="20" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Renepay Testing" duration-ms="229779" started-at="2018-08-22T11:09:26Z" finished-at="2018-08-22T11:13:15Z">
+  <suite name="Renepay Testing" duration-ms="862735" started-at="2018-08-23T05:04:14Z" finished-at="2018-08-23T05:18:37Z">
     <groups>
     </groups>
-    <test name="Login test case" duration-ms="175491" started-at="2018-08-22T11:09:26Z" finished-at="2018-08-22T11:12:21Z">
+    <test name="Login test case" duration-ms="304456" started-at="2018-08-23T05:04:14Z" finished-at="2018-08-23T05:09:18Z">
       <class name="com.renpay.test.LogInPageTestCase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeClass" is-config="true" duration-ms="10" started-at="2018-08-22T16:39:26Z" finished-at="2018-08-22T16:39:26Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeClass" is-config="true" duration-ms="10" started-at="2018-08-23T10:34:14Z" finished-at="2018-08-23T10:34:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2822" started-at="2018-08-22T16:39:26Z" finished-at="2018-08-22T16:39:28Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2796" started-at="2018-08-23T10:34:14Z" finished-at="2018-08-23T10:34:17Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_Login_001_VerifyLoginPopup()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_001_VerifyLoginPopup" duration-ms="5012" started-at="2018-08-22T16:39:28Z" finished-at="2018-08-22T16:39:33Z">
+        <test-method status="PASS" signature="tc_Login_001_VerifyLoginPopup()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_001_VerifyLoginPopup" duration-ms="5057" started-at="2018-08-23T10:34:17Z" finished-at="2018-08-23T10:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_001_VerifyLoginPopup -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2932" started-at="2018-08-22T16:39:33Z" finished-at="2018-08-22T16:39:36Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2907" started-at="2018-08-23T10:34:22Z" finished-at="2018-08-23T10:34:25Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2928" started-at="2018-08-22T16:39:36Z" finished-at="2018-08-22T16:39:39Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2913" started-at="2018-08-23T10:34:25Z" finished-at="2018-08-23T10:34:28Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_Login_002_VerifyLoginScreenField()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_002_VerifyLoginScreenField" duration-ms="5736" started-at="2018-08-22T16:39:39Z" finished-at="2018-08-22T16:39:45Z">
+        <test-method status="PASS" signature="tc_Login_002_VerifyLoginScreenField()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_002_VerifyLoginScreenField" duration-ms="5672" started-at="2018-08-23T10:34:28Z" finished-at="2018-08-23T10:34:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_002_VerifyLoginScreenField -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2876" started-at="2018-08-22T16:39:45Z" finished-at="2018-08-22T16:39:48Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2858" started-at="2018-08-23T10:34:33Z" finished-at="2018-08-23T10:34:36Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2682" started-at="2018-08-22T16:39:48Z" finished-at="2018-08-22T16:39:51Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2704" started-at="2018-08-23T10:34:36Z" finished-at="2018-08-23T10:34:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_007_login_validUserAndvalidPwd() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodCalled -->
+        <test-method status="PASS" signature="tc_Login_007_login_validUserAndvalidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_007_login_validUserAndvalidPwd" duration-ms="20403" started-at="2018-08-23T10:34:39Z" finished-at="2018-08-23T10:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Login_007_login_validUserAndvalidPwd -->
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2833" started-at="2018-08-23T10:34:59Z" finished-at="2018-08-23T10:35:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_007_login_validUserAndvalidPwd() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCalled -->
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2846" started-at="2018-08-23T10:35:02Z" finished-at="2018-08-23T10:35:05Z">
           <params>
             <param index="0">
               <value>
@@ -74,11 +100,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="PASS" signature="tc_Login_004_Login_With_BlankUser_Pwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_004_Login_With_BlankUser_Pwd" duration-ms="15171" started-at="2018-08-22T16:39:51Z" finished-at="2018-08-22T16:40:06Z">
+        <test-method status="PASS" signature="tc_Login_004_Login_With_BlankUser_Pwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_004_Login_With_BlankUser_Pwd" duration-ms="15176" started-at="2018-08-23T10:35:05Z" finished-at="2018-08-23T10:35:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_004_Login_With_BlankUser_Pwd -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2844" started-at="2018-08-22T16:40:06Z" finished-at="2018-08-22T16:40:09Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2855" started-at="2018-08-23T10:35:20Z" finished-at="2018-08-23T10:35:23Z">
           <params>
             <param index="0">
               <value>
@@ -89,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2701" started-at="2018-08-22T16:40:09Z" finished-at="2018-08-22T16:40:11Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2759" started-at="2018-08-23T10:35:23Z" finished-at="2018-08-23T10:35:26Z">
           <params>
             <param index="0">
               <value>
@@ -100,28 +126,95 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_Login_005_login_ValidUserAndInvalidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_005_login_ValidUserAndInvalidPwd" duration-ms="70550" started-at="2018-08-22T16:40:11Z" finished-at="2018-08-22T16:41:22Z">
+        <test-method status="PASS" signature="tc_Login_005_login_ValidUserAndInvalidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_005_login_ValidUserAndInvalidPwd" duration-ms="17376" started-at="2018-08-23T10:35:26Z" finished-at="2018-08-23T10:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Login_005_login_ValidUserAndInvalidPwd -->
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2694" started-at="2018-08-23T10:35:43Z" finished-at="2018-08-23T10:35:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_005_login_ValidUserAndInvalidPwd() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCalled -->
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2893" started-at="2018-08-23T10:35:46Z" finished-at="2018-08-23T10:35:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_006_login_InValidUserAndValidPwd() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodCalled -->
+        <test-method status="PASS" signature="tc_Login_006_login_InValidUserAndValidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_006_login_InValidUserAndValidPwd" duration-ms="17394" started-at="2018-08-23T10:35:49Z" finished-at="2018-08-23T10:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Login_006_login_InValidUserAndValidPwd -->
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2662" started-at="2018-08-23T10:36:06Z" finished-at="2018-08-23T10:36:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_006_login_InValidUserAndValidPwd() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCalled -->
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2853" started-at="2018-08-23T10:36:09Z" finished-at="2018-08-23T10:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_008_login_InValidUserAndInValidPwd() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodCalled -->
+        <test-method status="PASS" signature="tc_Login_008_login_InValidUserAndInValidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_008_login_InValidUserAndInValidPwd" duration-ms="18282" started-at="2018-08-23T10:36:12Z" finished-at="2018-08-23T10:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Login_008_login_InValidUserAndInValidPwd -->
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2680" started-at="2018-08-23T10:36:30Z" finished-at="2018-08-23T10:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_008_login_InValidUserAndInValidPwd() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCalled -->
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2837" started-at="2018-08-23T10:36:33Z" finished-at="2018-08-23T10:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_009_VerifyRememberMeSelectFunctionality() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodCalled -->
+        <test-method status="FAIL" signature="tc_Login_009_VerifyRememberMeSelectFunctionality()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_009_VerifyRememberMeSelectFunctionality" duration-ms="37850" started-at="2018-08-23T10:36:35Z" finished-at="2018-08-23T10:37:13Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (9b9f2ca4bee26ad8a1108b4cae57a47f)] -> xpath: //div[@id='divLoginErrorMsg']//p[@id='p2']] (tried for 60 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: imgProfile' (tried for 10 second(s) with 500 MILLISECONDS interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (9b9f2ca4bee26ad8a1108b4cae57a47f)] -> xpath: //div[@id='divLoginErrorMsg']//p[@id='p2']] (tried for 60 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: imgProfile' (tried for 10 second(s) with 500 MILLISECONDS interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at com.renpay.utils.TestUtil.waitForObjectVisible(TestUtil.java:328)
-	at com.renpay.pages.LoginPage.appliactionLoginAndValidateError(LoginPage.java:140)
-	at com.renpay.test.LogInPageTestCase.tc_Login_005_login_ValidUserAndInvalidPwd(LogInPageTestCase.java:54)
+	at com.renpay.test.LogInPageTestCase.tc_Login_009_VerifyRememberMeSelectFunctionality(LogInPageTestCase.java:108)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -147,389 +240,43 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"imgProfile"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir21392_2759}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 291e05ed9b11f731395f9d4eff61b7f2
+*** Element info: {Using=id, value=imgProfile}
+	at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 27 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_Login_005_login_ValidUserAndInvalidPwd -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2641" started-at="2018-08-22T16:41:24Z" finished-at="2018-08-22T16:41:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_005_login_ValidUserAndInvalidPwd() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2598" started-at="2018-08-22T16:41:27Z" finished-at="2018-08-22T16:41:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_006_login_InValidUserAndValidPwd() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_Login_006_login_InValidUserAndValidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_006_login_InValidUserAndValidPwd" duration-ms="87" started-at="2018-08-22T16:41:30Z" finished-at="2018-08-22T16:41:30Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 35 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 35 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.appliactionLoginAndValidateError(LoginPage.java:127)
-	at com.renpay.test.LogInPageTestCase.tc_Login_006_login_InValidUserAndValidPwd(LogInPageTestCase.java:67)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_Login_006_login_InValidUserAndValidPwd -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2601" started-at="2018-08-22T16:41:32Z" finished-at="2018-08-22T16:41:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_006_login_InValidUserAndValidPwd() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2630" started-at="2018-08-22T16:41:35Z" finished-at="2018-08-22T16:41:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_007_login_validUserAndvalidPwd() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_Login_007_login_validUserAndvalidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_007_login_validUserAndvalidPwd" duration-ms="77" started-at="2018-08-22T16:41:37Z" finished-at="2018-08-22T16:41:37Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.appliactionLoginwithValidCredentails(LoginPage.java:90)
-	at com.renpay.test.LogInPageTestCase.tc_Login_007_login_validUserAndvalidPwd(LogInPageTestCase.java:79)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_Login_007_login_validUserAndvalidPwd -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2531" started-at="2018-08-22T16:41:40Z" finished-at="2018-08-22T16:41:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_007_login_validUserAndvalidPwd() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2641" started-at="2018-08-22T16:41:42Z" finished-at="2018-08-22T16:41:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_008_login_InValidUserAndInValidPwd() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_Login_008_login_InValidUserAndInValidPwd()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_008_login_InValidUserAndInValidPwd" duration-ms="77" started-at="2018-08-22T16:41:45Z" finished-at="2018-08-22T16:41:45Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.appliactionLoginAndValidateError(LoginPage.java:127)
-	at com.renpay.test.LogInPageTestCase.tc_Login_008_login_InValidUserAndInValidPwd(LogInPageTestCase.java:87)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_Login_008_login_InValidUserAndInValidPwd -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2537" started-at="2018-08-22T16:41:48Z" finished-at="2018-08-22T16:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_008_login_InValidUserAndInValidPwd() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2594" started-at="2018-08-22T16:41:50Z" finished-at="2018-08-22T16:41:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.renpay.test.LogInPageTestCase.tc_Login_009_VerifyRememberMeSelectFunctionality() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_Login_009_VerifyRememberMeSelectFunctionality()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_009_VerifyRememberMeSelectFunctionality" duration-ms="77" started-at="2018-08-22T16:41:53Z" finished-at="2018-08-22T16:41:53Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 23 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 23 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.appliactionLoginWithRememberMe(LoginPage.java:113)
-	at com.renpay.test.LogInPageTestCase.tc_Login_009_VerifyRememberMeSelectFunctionality(LogInPageTestCase.java:99)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- tc_Login_009_VerifyRememberMeSelectFunctionality -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2593" started-at="2018-08-22T16:41:55Z" finished-at="2018-08-22T16:41:58Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2815" started-at="2018-08-23T10:37:16Z" finished-at="2018-08-23T10:37:19Z">
           <params>
             <param index="0">
               <value>
@@ -540,7 +287,7 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2564" started-at="2018-08-22T16:41:58Z" finished-at="2018-08-22T16:42:01Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2852" started-at="2018-08-23T10:37:19Z" finished-at="2018-08-23T10:37:21Z">
           <params>
             <param index="0">
               <value>
@@ -551,47 +298,16 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_Login_010_VerifyRememberMeUnselectFunctionality()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_010_VerifyRememberMeUnselectFunctionality" duration-ms="75" started-at="2018-08-22T16:42:01Z" finished-at="2018-08-22T16:42:01Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="tc_Login_010_VerifyRememberMeUnselectFunctionality()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_Login_010_VerifyRememberMeUnselectFunctionality" duration-ms="24637" started-at="2018-08-23T10:37:21Z" finished-at="2018-08-23T10:37:46Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
+              <![CDATA[User name and password is not blank]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.appliactionLoginwithValidCredentails(LoginPage.java:90)
-	at com.renpay.test.LogInPageTestCase.tc_Login_010_VerifyRememberMeUnselectFunctionality(LogInPageTestCase.java:117)
+              <![CDATA[java.lang.AssertionError: User name and password is not blank
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.renpay.utils.TestInitialization.failTestCase(TestInitialization.java:398)
+	at com.renpay.test.LogInPageTestCase.tc_Login_010_VerifyRememberMeUnselectFunctionality(LogInPageTestCase.java:127)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -619,11 +335,11 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Login_010_VerifyRememberMeUnselectFunctionality -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2605" started-at="2018-08-22T16:42:03Z" finished-at="2018-08-22T16:42:06Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2724" started-at="2018-08-23T10:37:49Z" finished-at="2018-08-23T10:37:51Z">
           <params>
             <param index="0">
               <value>
@@ -634,7 +350,7 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2637" started-at="2018-08-22T16:42:06Z" finished-at="2018-08-22T16:42:08Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2777" started-at="2018-08-23T10:37:51Z" finished-at="2018-08-23T10:37:54Z">
           <params>
             <param index="0">
               <value>
@@ -645,79 +361,11 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_F_Password001_ForgatPwdWithInvalidEmail()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_F_Password001_ForgatPwdWithInvalidEmail" duration-ms="74" started-at="2018-08-22T16:42:08Z" finished-at="2018-08-22T16:42:08Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 21 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 21 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.navigateToForgotPasswordScreen(LoginPage.java:194)
-	at com.renpay.test.LogInPageTestCase.tc_F_Password001_ForgatPwdWithInvalidEmail(LogInPageTestCase.java:137)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_F_Password001_ForgatPwdWithInvalidEmail()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_F_Password001_ForgatPwdWithInvalidEmail" duration-ms="15740" started-at="2018-08-23T10:37:54Z" finished-at="2018-08-23T10:38:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_F_Password001_ForgatPwdWithInvalidEmail -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2531" started-at="2018-08-22T16:42:11Z" finished-at="2018-08-22T16:42:13Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2817" started-at="2018-08-23T10:38:10Z" finished-at="2018-08-23T10:38:13Z">
           <params>
             <param index="0">
               <value>
@@ -728,7 +376,7 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2623" started-at="2018-08-22T16:42:13Z" finished-at="2018-08-22T16:42:16Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="beforeMethodCalled" is-config="true" duration-ms="2835" started-at="2018-08-23T10:38:13Z" finished-at="2018-08-23T10:38:15Z">
           <params>
             <param index="0">
               <value>
@@ -739,79 +387,11 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_F_Password004_ForgatPwdWithValidEmail()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_F_Password004_ForgatPwdWithValidEmail" duration-ms="76" started-at="2018-08-22T16:42:16Z" finished-at="2018-08-22T16:42:16Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 23 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 23 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.LoginPage.navigateToForgotPasswordScreen(LoginPage.java:194)
-	at com.renpay.test.LogInPageTestCase.tc_F_Password004_ForgatPwdWithValidEmail(LogInPageTestCase.java:152)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_F_Password004_ForgatPwdWithValidEmail()[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="tc_F_Password004_ForgatPwdWithValidEmail" duration-ms="60196" started-at="2018-08-23T10:38:15Z" finished-at="2018-08-23T10:39:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_F_Password004_ForgatPwdWithValidEmail -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2542" started-at="2018-08-22T16:42:18Z" finished-at="2018-08-22T16:42:21Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterMethodCalled" is-config="true" duration-ms="2826" started-at="2018-08-23T10:39:16Z" finished-at="2018-08-23T10:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -822,11 +402,11 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-22T16:42:21Z" finished-at="2018-08-22T16:42:21Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.LogInPageTestCase@41a2befb]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-23T10:39:18Z" finished-at="2018-08-23T10:39:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6c8e40fc]]>
+                <![CDATA[org.testng.TestRunner@2ea2f33b]]>
               </value>
             </param>
           </params>
@@ -835,13 +415,13 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
         </test-method> <!-- afterClass -->
       </class> <!-- com.renpay.test.LogInPageTestCase -->
     </test> <!-- Login test case -->
-    <test name="Signup test case" duration-ms="46555" started-at="2018-08-22T11:12:21Z" finished-at="2018-08-22T11:13:08Z">
+    <test name="Signup test case" duration-ms="307094" started-at="2018-08-23T05:09:18Z" finished-at="2018-08-23T05:14:26Z">
       <class name="com.renpay.test.SignupTestCase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeClass" is-config="true" duration-ms="8" started-at="2018-08-22T16:42:21Z" finished-at="2018-08-22T16:42:21Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeClass" is-config="true" duration-ms="8" started-at="2018-08-23T10:39:18Z" finished-at="2018-08-23T10:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2594" started-at="2018-08-22T16:42:21Z" finished-at="2018-08-22T16:42:24Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2832" started-at="2018-08-23T10:39:18Z" finished-at="2018-08-23T10:39:21Z">
           <params>
             <param index="0">
               <value>
@@ -852,78 +432,11 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_SignUp_001_RedirectToSignUpPage()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUp_001_RedirectToSignUpPage" duration-ms="81" started-at="2018-08-22T16:42:24Z" finished-at="2018-08-22T16:42:24Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.SignUpPage.navigateToSignUpPageAsBuyerAndValidate(SignUpPage.java:84)
-	at com.renpay.test.SignupTestCase.tc_SignUp_001_RedirectToSignUpPage(SignupTestCase.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_SignUp_001_RedirectToSignUpPage()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUp_001_RedirectToSignUpPage" duration-ms="5213" started-at="2018-08-23T10:39:21Z" finished-at="2018-08-23T10:39:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUp_001_RedirectToSignUpPage -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="2593" started-at="2018-08-22T16:42:26Z" finished-at="2018-08-22T16:42:29Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="3874" started-at="2018-08-23T10:39:27Z" finished-at="2018-08-23T10:39:30Z">
           <params>
             <param index="0">
               <value>
@@ -934,7 +447,7 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2567" started-at="2018-08-22T16:42:29Z" finished-at="2018-08-22T16:42:31Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2687" started-at="2018-08-23T10:39:30Z" finished-at="2018-08-23T10:39:33Z">
           <params>
             <param index="0">
               <value>
@@ -945,78 +458,11 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_SignUp_002_ValidateSignUpFields()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUp_002_ValidateSignUpFields" duration-ms="82" started-at="2018-08-22T16:42:31Z" finished-at="2018-08-22T16:42:32Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.SignUpPage.navigateToSignUpPageAsBuyerAndValidate(SignUpPage.java:84)
-	at com.renpay.test.SignupTestCase.tc_SignUp_002_ValidateSignUpFields(SignupTestCase.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_SignUp_002_ValidateSignUpFields()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUp_002_ValidateSignUpFields" duration-ms="7046" started-at="2018-08-23T10:39:33Z" finished-at="2018-08-23T10:39:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUp_002_ValidateSignUpFields -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="2605" started-at="2018-08-22T16:42:34Z" finished-at="2018-08-22T16:42:37Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="3986" started-at="2018-08-23T10:39:40Z" finished-at="2018-08-23T10:39:44Z">
           <params>
             <param index="0">
               <value>
@@ -1027,7 +473,7 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2670" started-at="2018-08-22T16:42:37Z" finished-at="2018-08-22T16:42:39Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2686" started-at="2018-08-23T10:39:44Z" finished-at="2018-08-23T10:39:47Z">
           <params>
             <param index="0">
               <value>
@@ -1038,78 +484,11 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_SignUP_005_SignUpwithOutMadaoryField()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_005_SignUpwithOutMadaoryField" duration-ms="78" started-at="2018-08-22T16:42:39Z" finished-at="2018-08-22T16:42:39Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.SignUpPage.navigateToSignUpPageAsBuyerAndValidate(SignUpPage.java:84)
-	at com.renpay.test.SignupTestCase.tc_SignUP_005_SignUpwithOutMadaoryField(SignupTestCase.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_SignUP_005_SignUpwithOutMadaoryField()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_005_SignUpwithOutMadaoryField" duration-ms="22426" started-at="2018-08-23T10:39:47Z" finished-at="2018-08-23T10:40:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUP_005_SignUpwithOutMadaoryField -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="2627" started-at="2018-08-22T16:42:42Z" finished-at="2018-08-22T16:42:44Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="3993" started-at="2018-08-23T10:40:09Z" finished-at="2018-08-23T10:40:13Z">
           <params>
             <param index="0">
               <value>
@@ -1120,7 +499,7 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2615" started-at="2018-08-22T16:42:44Z" finished-at="2018-08-22T16:42:47Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2706" started-at="2018-08-23T10:40:13Z" finished-at="2018-08-23T10:40:16Z">
           <params>
             <param index="0">
               <value>
@@ -1131,46 +510,17 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_SignUP_006_SignUPWithAlreadyRegisterUser()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_006_SignUPWithAlreadyRegisterUser" duration-ms="81" started-at="2018-08-22T16:42:47Z" finished-at="2018-08-22T16:42:47Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="tc_SignUP_006_SignUPWithAlreadyRegisterUser()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_006_SignUPWithAlreadyRegisterUser" duration-ms="39902" started-at="2018-08-23T10:40:16Z" finished-at="2018-08-23T10:40:56Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 29 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
+              <![CDATA[Unable to validate login error. <br> Actual error message : and expected error message : Company Name Already Exists. Please try With Different Name.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 29 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.SignUpPage.navigateToSignUpPageAsBuyerAndValidate(SignUpPage.java:84)
-	at com.renpay.test.SignupTestCase.tc_SignUP_006_SignUPWithAlreadyRegisterUser(SignupTestCase.java:42)
+              <![CDATA[java.lang.AssertionError: Unable to validate login error. <br> Actual error message : and expected error message : Company Name Already Exists. Please try With Different Name.
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.renpay.utils.TestInitialization.failTestCase(TestInitialization.java:398)
+	at com.renpay.pages.LoginPage.validateLoginErrorMsg(LoginPage.java:153)
+	at com.renpay.test.SignupTestCase.tc_SignUP_006_SignUPWithAlreadyRegisterUser(SignupTestCase.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1198,11 +548,11 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUP_006_SignUPWithAlreadyRegisterUser -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="2538" started-at="2018-08-22T16:42:50Z" finished-at="2018-08-22T16:42:52Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="157" started-at="2018-08-23T10:40:58Z" finished-at="2018-08-23T10:40:58Z">
           <params>
             <param index="0">
               <value>
@@ -1213,7 +563,7 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2640" started-at="2018-08-22T16:42:52Z" finished-at="2018-08-22T16:42:55Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="171" started-at="2018-08-23T10:40:58Z" finished-at="2018-08-23T10:40:58Z">
           <params>
             <param index="0">
               <value>
@@ -1224,45 +574,18 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition" duration-ms="76" started-at="2018-08-22T16:42:55Z" finished-at="2018-08-22T16:42:55Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_007_SignUPWithoutSelectTermsAndCondition" duration-ms="180092" started-at="2018-08-23T10:40:58Z" finished-at="2018-08-23T10:43:59Z">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Sign in']' (tried for 180 second(s) with 500 MILLISECONDS interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.SignUpPage.navigateToSignUpPageAsBuyerAndValidate(SignUpPage.java:84)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Sign in']' (tried for 180 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.renpay.utils.TestUtil.waitForObjectVisible(TestUtil.java:328)
+	at com.renpay.utils.TestUtil.click(TestUtil.java:496)
+	at com.renpay.pages.SignUpPage.navigateToSignUpPageAsBuyerAndValidate(SignUpPage.java:85)
 	at com.renpay.test.SignupTestCase.tc_SignUP_007_SignUPWithoutSelectTermsAndCondition(SignupTestCase.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -1289,13 +612,43 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Sign in']"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir21392_2759}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 291e05ed9b11f731395f9d4eff61b7f2
+*** Element info: {Using=xpath, value=//span[text()='Sign in']}
+	at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 29 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUP_007_SignUPWithoutSelectTermsAndCondition -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="2540" started-at="2018-08-22T16:42:57Z" finished-at="2018-08-22T16:43:00Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4384" started-at="2018-08-23T10:44:01Z" finished-at="2018-08-23T10:44:05Z">
           <params>
             <param index="0">
               <value>
@@ -1306,7 +659,7 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2587" started-at="2018-08-22T16:43:00Z" finished-at="2018-08-22T16:43:02Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="beforeMethodCalled" is-config="true" duration-ms="2696" started-at="2018-08-23T10:44:05Z" finished-at="2018-08-23T10:44:08Z">
           <params>
             <param index="0">
               <value>
@@ -1317,78 +670,11 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="FAIL" signature="tc_SignUP_008_VerifyTermsAndConditionLink()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_008_VerifyTermsAndConditionLink" duration-ms="77" started-at="2018-08-22T16:43:02Z" finished-at="2018-08-22T16:43:03Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestUtil.click(TestUtil.java:498)
-	at com.renpay.pages.SignUpPage.navigateToSignUpPageAsBuyerAndValidate(SignUpPage.java:84)
-	at com.renpay.test.SignupTestCase.tc_SignUP_008_VerifyTermsAndConditionLink(SignupTestCase.java:71)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_SignUP_008_VerifyTermsAndConditionLink()[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="tc_SignUP_008_VerifyTermsAndConditionLink" duration-ms="13540" started-at="2018-08-23T10:44:08Z" finished-at="2018-08-23T10:44:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_SignUP_008_VerifyTermsAndConditionLink -->
-        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="2600" started-at="2018-08-22T16:43:05Z" finished-at="2018-08-22T16:43:08Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterMethodCalled" is-config="true" duration-ms="4056" started-at="2018-08-23T10:44:21Z" finished-at="2018-08-23T10:44:26Z">
           <params>
             <param index="0">
               <value>
@@ -1399,11 +685,11 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCalled -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-22T16:43:08Z" finished-at="2018-08-22T16:43:08Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.SignupTestCase@158a8276]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-23T10:44:26Z" finished-at="2018-08-23T10:44:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@41bb5a40]]>
+                <![CDATA[org.testng.TestRunner@12ff6605]]>
               </value>
             </param>
           </params>
@@ -1412,387 +698,125 @@ Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
         </test-method> <!-- afterClass -->
       </class> <!-- com.renpay.test.SignupTestCase -->
     </test> <!-- Signup test case -->
-    <test name="Buyer Profile test case" duration-ms="5021" started-at="2018-08-22T11:13:08Z" finished-at="2018-08-22T11:13:13Z">
+    <test name="Buyer Profile test case" duration-ms="65110" started-at="2018-08-23T05:14:26Z" finished-at="2018-08-23T05:15:31Z">
       <class name="com.renpay.test.Buyer_ProfileTestCases">
-        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeClass" is-config="true" duration-ms="124" started-at="2018-08-22T16:43:08Z" finished-at="2018-08-22T16:43:08Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:194)
-	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:136)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeClass" is-config="true" duration-ms="2556" started-at="2018-08-23T10:44:26Z" finished-at="2018-08-23T10:44:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeMethodCalled" is-config="true" duration-ms="0" started-at="2018-08-22T16:43:08Z" finished-at="2018-08-22T16:43:08Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeMethodCalled" is-config="true" duration-ms="2384" started-at="2018-08-23T10:44:28Z" finished-at="2018-08-23T10:44:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.Buyer_ProfileTestCases.tc_001_UpdateUserProfile() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="SKIP" signature="tc_001_UpdateUserProfile()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="tc_001_UpdateUserProfile" duration-ms="0" started-at="2018-08-22T16:43:08Z" finished-at="2018-08-22T16:43:08Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:194)
-	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:136)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_001_UpdateUserProfile()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="tc_001_UpdateUserProfile" duration-ms="28386" started-at="2018-08-23T10:44:31Z" finished-at="2018-08-23T10:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_001_UpdateUserProfile -->
-        <test-method status="SKIP" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeMethodCalled" is-config="true" duration-ms="0" started-at="2018-08-22T16:43:10Z" finished-at="2018-08-22T16:43:10Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="afterMethodCalled" is-config="true" duration-ms="2329" started-at="2018-08-23T10:44:59Z" finished-at="2018-08-23T10:45:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.Buyer_ProfileTestCases.tc_001_UpdateUserProfile() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCalled -->
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="beforeMethodCalled" is-config="true" duration-ms="2405" started-at="2018-08-23T10:45:01Z" finished-at="2018-08-23T10:45:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.Buyer_ProfileTestCases.tc_ValidateUserProfileBtn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="SKIP" signature="tc_ValidateUserProfileBtn()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="tc_ValidateUserProfileBtn" duration-ms="0" started-at="2018-08-22T16:43:10Z" finished-at="2018-08-22T16:43:10Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:194)
-	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:136)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_ValidateUserProfileBtn()[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="tc_ValidateUserProfileBtn" duration-ms="22857" started-at="2018-08-23T10:45:04Z" finished-at="2018-08-23T10:45:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_ValidateUserProfileBtn -->
-        <test-method status="SKIP" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-22T16:43:13Z" finished-at="2018-08-22T16:43:13Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="afterMethodCalled" is-config="true" duration-ms="4192" started-at="2018-08-23T10:45:26Z" finished-at="2018-08-23T10:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.Buyer_ProfileTestCases.tc_ValidateUserProfileBtn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCalled -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.Buyer_ProfileTestCases@71e9ddb4]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-23T10:45:31Z" finished-at="2018-08-23T10:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@535b626a]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.renpay.test.Buyer_ProfileTestCases -->
     </test> <!-- Buyer Profile test case -->
-    <test name="Create RFP test case" duration-ms="2625" started-at="2018-08-22T11:13:13Z" finished-at="2018-08-22T11:13:15Z">
+    <test name="Create RFP test case" duration-ms="186022" started-at="2018-08-23T05:15:31Z" finished-at="2018-08-23T05:18:37Z">
       <class name="com.renpay.test.RFPTestCases">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="Setup" is-config="true" duration-ms="8691" started-at="2018-08-22T16:39:17Z" finished-at="2018-08-22T16:39:26Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="Setup" is-config="true" duration-ms="8712" started-at="2018-08-23T10:34:05Z" finished-at="2018-08-23T10:34:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="beforeClass" is-config="true" duration-ms="120" started-at="2018-08-22T16:43:13Z" finished-at="2018-08-22T16:43:13Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:194)
-	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:136)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="beforeClass" is-config="true" duration-ms="2374" started-at="2018-08-23T10:45:31Z" finished-at="2018-08-23T10:45:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="beforeMethodCalled" is-config="true" duration-ms="0" started-at="2018-08-22T16:43:13Z" finished-at="2018-08-22T16:43:13Z">
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="beforeMethodCalled" is-config="true" duration-ms="2394" started-at="2018-08-23T10:45:33Z" finished-at="2018-08-23T10:45:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.RFPTestCases.tc_CreateRFP_001() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCalled -->
-        <test-method status="SKIP" signature="tc_CreateRFP_001()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="tc_CreateRFP_001" duration-ms="0" started-at="2018-08-22T16:43:13Z" finished-at="2018-08-22T16:43:13Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (1398, 69). Other element would receive the click: <div class="modal fade in" id="divLoginErrorMsg3" role="dialog" aria-hidden="false" style="display: block; padding-right: 16px;">...</div>
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'C1-GF-102', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ANKIT~1.AGA\AppData\Local\Temp\scoped_dir38540_4117}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b9f2ca4bee26ad8a1108b4cae57a47f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.renpay.utils.TestInitialization.applicationLogin(TestInitialization.java:194)
-	at com.renpay.utils.TestInitialization.beforeClass(TestInitialization.java:136)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="tc_CreateRFP_001()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="tc_CreateRFP_001" duration-ms="178887" started-at="2018-08-23T10:45:35Z" finished-at="2018-08-23T10:48:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_CreateRFP_001 -->
-        <test-method status="SKIP" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-22T16:43:15Z" finished-at="2018-08-22T16:43:15Z">
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="afterMethodCalled" is-config="true" duration-ms="2365" started-at="2018-08-23T10:48:34Z" finished-at="2018-08-23T10:48:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.renpay.test.RFPTestCases.tc_CreateRFP_001() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCalled -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-23T10:48:37Z" finished-at="2018-08-23T10:48:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b593693]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="SKIP" signature="suiteEndReached()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="suiteEndReached" is-config="true" duration-ms="0" started-at="2018-08-22T16:43:15Z" finished-at="2018-08-22T16:43:15Z">
+        <test-method status="PASS" signature="suiteEndReached()[pri:0, instance:com.renpay.test.RFPTestCases@1190200a]" name="suiteEndReached" is-config="true" duration-ms="10648" started-at="2018-08-23T10:48:37Z" finished-at="2018-08-23T10:48:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteEndReached -->

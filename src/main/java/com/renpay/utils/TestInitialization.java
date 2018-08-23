@@ -130,7 +130,7 @@ public class TestInitialization extends ObjectRepository {
 				// if application is already log in then no need to login
 				log.info("Validate the application is login or not");
 				try {
-						acceptpopUpIfexist();
+					acceptpopUpIfexist();
 					if (new LoginPage(driver).signinLink.isDisplayed())
 						// driver.navigate().refresh();
 						applicationLogin();
@@ -149,6 +149,7 @@ public class TestInitialization extends ObjectRepository {
 
 		reports.startTest("Starting the Test: " + method.getName());
 		try {
+			log.info("Before method called");
 			acceptpopUpIfexist();
 			driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 			log.info("Testcase name is :::::: " + method.getName());
@@ -160,7 +161,6 @@ public class TestInitialization extends ObjectRepository {
 				reports.log(LogStatus.PASS, "Start Step : Start with the focus on Home page");
 				try {
 					setApplicationHomePage();
-					reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -199,23 +199,21 @@ public class TestInitialization extends ObjectRepository {
 			String password = TestUtil.getExcelKeyValue("LogInPage", "Password", "ValidValues");
 
 			log.info("User name :" + userName);
-			log.info("Password : "+ password);
-			
+			log.info("Password : " + password);
+
 			loginPage.emailName.sendKeys(Keys.CONTROL, "a");
 			loginPage.emailName.sendKeys(Keys.DELETE);
 			loginPage.emailName.sendKeys(userName);
-			
+
 			loginPage.password.sendKeys(Keys.CONTROL, "a");
 			loginPage.password.sendKeys(Keys.DELETE);
 			loginPage.password.sendKeys(password);
 
 			loginPage.loginBtn.click();
-			
+
 			TestUtil.waitForObjectInvisble(By.id(ObjectRepository.pleaseWaitModal_ID), 180,
 					"Please wait modal alertbox");
-			
-			System.out.println(TestUtil.captureCurrentScreenshot());
-			
+
 			TestUtil.waitForObjectVisible(homePage.imageProfile, 180, "User Profile");
 
 		} else {
@@ -227,7 +225,7 @@ public class TestInitialization extends ObjectRepository {
 	public void afterMethodCalled(Method method) throws InterruptedException, IOException {
 
 		try {
-
+			log.info("After Method called");
 			driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 			if (!(method.getDeclaringClass().getSimpleName().contentEquals("LogInPageTestCase")
@@ -239,9 +237,6 @@ public class TestInitialization extends ObjectRepository {
 					setApplicationHomePage();
 				} catch (Exception e) {
 					e.printStackTrace();
-				} finally {
-					// close DB connection if connected
-					DataBaseConnection.closeDbConnectionIfExist();
 				}
 			}
 
@@ -333,7 +328,7 @@ public class TestInitialization extends ObjectRepository {
 			if (driver.getCurrentUrl().contains("Dashboard.aspx")) {
 				log.info("Application is already on home page");
 				reports.attachScreenshot(TestUtil.captureCurrentScreenshot());
-				
+
 			} else {
 				// Currently application is not on home page
 				TestUtil.click(homePage.renpayLogoImg, "renpay Logo");
@@ -351,8 +346,7 @@ public class TestInitialization extends ObjectRepository {
 		try {
 			acceptpopUpIfexist();
 			new HomePage(driver).renpayLogoImg.click();
-		} catch (NoSuchElementException e) {
-
+		} catch (Exception e) {
 		}
 		try {
 			if (new LoginPage(driver).signinLink.isDisplayed()) {
@@ -498,27 +492,30 @@ public class TestInitialization extends ObjectRepository {
 		System.out.println("Application loaded");
 	}
 
-	public static void acceptpopUpIfexist() {
+	public static void acceptpopUpIfexist() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
 		try {
 			if (loginPage.popupCloseButtonAtModalHeader.isDisplayed()) {
 				log.info("popup found accept it");
 				loginPage.popupCloseButtonAtModalHeader.click();
-			} 
-			
-			else if(loginPage.loginErrorPopupCloseBtn.isDisplayed()){
+				TestUtil.waitForObjectInvisble(By.id(ObjectRepository.pleaseWaitModal_ID), 60,
+						"Please wait modal alertbox");
+			}
+
+			else if (loginPage.loginErrorPopupCloseBtn.isDisplayed()) {
 				log.info("popup found accept it");
 				loginPage.loginErrorPopupCloseBtn.click();
-			}
-			else {
-				
+				TestUtil.waitForObjectInvisble(By.id(ObjectRepository.pleaseWaitModal_ID), 60,
+						"Please wait modal alertbox");
+			} else {
+
 				log.info("popup is not found");
 			}
 		} catch (NoSuchElementException e) {
-			
-			
+
 			log.info("popup is not found ");
 		}
+
 	}
 }

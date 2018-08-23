@@ -81,8 +81,8 @@ public class SignUpPage extends TestInitialization {
 	public void navigateToSignUpPageAsBuyerAndValidate() throws InterruptedException {
 
 		LoginPage loginPage = new LoginPage(driver);
-		TestUtil.click(loginPage.signinLink, "Sign Link");
 		reports.log(LogStatus.PASS, "Validate Application is move to Sign up page");
+		TestUtil.click(loginPage.signinLink, "Sign Link");
 		TestUtil.click(loginPage.buyerImgForSignup, "Buyer image");
 		TestUtil.waitForObjectVisible(registerAsBuyerHeading, 60, "Register as a Buyer heading");
 	}
